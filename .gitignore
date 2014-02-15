@@ -1,0 +1,4 @@
+# Exclude files from Git.
+
+# Built artifacts
+bin/
