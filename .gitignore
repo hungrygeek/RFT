@@ -2,3 +2,6 @@
 
 # Built artifacts
 bin/
+
+# Temporary files
+*.java~

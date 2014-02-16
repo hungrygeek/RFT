@@ -1,5 +1,3 @@
-package uk.ac.cam.ss2099.fjava.tick1;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.ConnectException;
