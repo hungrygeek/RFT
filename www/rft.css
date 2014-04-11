@@ -19,6 +19,7 @@ h1 {
 
 h2 {
   text-align: left;
+  margin: 0px;
 }
 
 .container {
@@ -67,9 +68,21 @@ h2 {
   width: 100%;
 }
 
-.charttitle {
-  position: relative;
+.amchart {
+  position: absolute;
   left: 5px;
   right: 5px;
-  bottom: 10px;
+  top: 5px;
+}
+
+#barchart {
+  height: 620px;
+}
+
+.charttitle {
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  top: 5px;
+  z-index: 20;
 }

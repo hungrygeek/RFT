@@ -1,41 +1,130 @@
-var chart;
+var barChart;
 
-var chartData = [{
-  room: "E1",
-  kWh: 6.0
-}, {
-  room: "E2",
-  kWh: 5.0
-}, {
-  room: "E3",
-  kWh: 4.0
-}, {
-  room: "E4",
-  kWh: 3.0
-}, {
-  room: "E5",
-  kWh: 2.0
-}, {
-  room: "E6",
-  kWh: 1.0
-}];
+var barChartData = [
+  {
+    "year": 2005,
+    "income": 23.5
+  },
+  {
+    "year": 2006,
+    "income": 26.2
+  },
+  {
+    "year": 2007,
+    "income": 30.1
+  },
+  {
+    "year": 2008,
+    "income": 29.5
+  },
+  {
+    "year": 2009,
+    "income": 24.6
+  },
+  {
+    "year": 2005,
+    "income": 23.5
+  },
+  {
+    "year": 2006,
+    "income": 26.2
+  },
+  {
+    "year": 2007,
+    "income": 30.1
+  },
+  {
+    "year": 2008,
+    "income": 29.5
+  },
+  {
+    "year": 2009,
+    "income": 24.6
+  },
+  {
+    "year": 2005,
+    "income": 23.5
+  },
+  {
+    "year": 2006,
+    "income": 26.2
+  },
+  {
+    "year": 2007,
+    "income": 30.1
+  },
+  {
+    "year": 2008,
+    "income": 29.5
+  },
+  {
+    "year": 2009,
+    "income": 24.6
+  },
+  {
+    "year": 2005,
+    "income": 23.5
+  },
+  {
+    "year": 2006,
+    "income": 26.2
+  },
+  {
+    "year": 2007,
+    "income": 30.1
+  },
+  {
+    "year": 2008,
+    "income": 29.5
+  },
+  {
+    "year": 2009,
+    "income": 24.6
+  }
+];
 
-var myLabel = "[[title]]: [[value]]kWh\n[[percents]]%";
-var myBalloon = "[[title]]";
 
 AmCharts.ready(function () {
-  // PIE CHART
-  chart = new AmCharts.AmPieChart();
-  chart.dataProvider = chartData;
-  chart.titleField = "room";
-  chart.valueField = "kWh";
-  chart.outlineColor = "#FFFFFF";
-  chart.outlineAlpha = 0.8;
-  chart.outlineThickness = 2;
-  chart.labelText = myLabel;
-  chart.balloonText = myBalloon;
-  chart.hideBalloonTime = 50;
+  // SERIAL CHART
+  barChart = new AmCharts.AmSerialChart();
+  barChart.dataProvider = barChartData;
+  barChart.categoryField = "year";
+  // this single line makes the chart a bar chart,
+  // try to set it to false - your bars will turn to columns
+  barChart.rotate = true;
+  // the following two lines makes chart 3D
+  barChart.depth3D = 20;
+  barChart.angle = 30;
 
-  // WRITE - FIXME
-  //chart.write("bigchart");
+  // AXES
+  // Category
+  var categoryAxis = barChart.categoryAxis;
+  categoryAxis.gridPosition = "start";
+  categoryAxis.axisColor = "#DADADA";
+  categoryAxis.fillAlpha = 1;
+  categoryAxis.gridAlpha = 0;
+  categoryAxis.fillColor = "#FAFAFA";
+
+  // value
+  var valueAxis = new AmCharts.ValueAxis();
+  valueAxis.axisColor = "#DADADA";
+  valueAxis.title = "Income in millions, USD";
+  valueAxis.gridAlpha = 0.1;
+  barChart.addValueAxis(valueAxis);
+
+  // GRAPH
+  var graph = new AmCharts.AmGraph();
+  graph.title = "Income";
+  graph.valueField = "income";
+  graph.type = "column";
+  graph.balloonText = "Income in [[category]]:[[value]]";
+  graph.lineAlpha = 0;
+  graph.fillColors = "#bf1c25";
+  graph.fillAlphas = 1;
+  barChart.addGraph(graph);
+
+  barChart.creditsPosition = "top-left";
+
+  // WRITE
+  barChart.write("barchart");
 });
