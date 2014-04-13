@@ -1,94 +1,18 @@
 var barChart;
 
-var barChartData = [
-  {
-    "year": 2005,
-    "income": 23.5
-  },
-  {
-    "year": 2006,
-    "income": 26.2
-  },
-  {
-    "year": 2007,
-    "income": 30.1
-  },
-  {
-    "year": 2008,
-    "income": 29.5
-  },
-  {
-    "year": 2009,
-    "income": 24.6
-  },
-  {
-    "year": 2005,
-    "income": 23.5
-  },
-  {
-    "year": 2006,
-    "income": 26.2
-  },
-  {
-    "year": 2007,
-    "income": 30.1
-  },
-  {
-    "year": 2008,
-    "income": 29.5
-  },
-  {
-    "year": 2009,
-    "income": 24.6
-  },
-  {
-    "year": 2005,
-    "income": 23.5
-  },
-  {
-    "year": 2006,
-    "income": 26.2
-  },
-  {
-    "year": 2007,
-    "income": 30.1
-  },
-  {
-    "year": 2008,
-    "income": 29.5
-  },
-  {
-    "year": 2009,
-    "income": 24.6
-  },
-  {
-    "year": 2005,
-    "income": 23.5
-  },
-  {
-    "year": 2006,
-    "income": 26.2
-  },
-  {
-    "year": 2007,
-    "income": 30.1
-  },
-  {
-    "year": 2008,
-    "income": 29.5
-  },
-  {
-    "year": 2009,
-    "income": 24.6
-  }
-];
+var request = new XMLHttpRequest();
+request.open('GET', 'sample_data.json', false);
+request.send();
 
+var chartData = JSON.parse(request.responseText);
+console.log(chartData);
+var barChartData = chartData.rankingChart;
 
 AmCharts.ready(function () {
   // SERIAL CHART
   barChart = new AmCharts.AmSerialChart();
   barChart.dataProvider = barChartData;
-  barChart.categoryField = "year";
+  barChart.categoryField = "name";
   // this single line makes the chart a bar chart,
   // try to set it to false - your bars will turn to columns
   barChart.rotate = true;
@@ -108,22 +32,22 @@ AmCharts.ready(function () {
   // value
   var valueAxis = new AmCharts.ValueAxis();
   valueAxis.axisColor = "#DADADA";
-  valueAxis.title = "Income in millions, USD";
+  valueAxis.title = "Electricity consumption, kWh";
   valueAxis.gridAlpha = 0.1;
   barChart.addValueAxis(valueAxis);
 
   // GRAPH
   var graph = new AmCharts.AmGraph();
-  graph.title = "Income";
-  graph.valueField = "income";
+  graph.title = "kWh";
+  graph.valueField = "kwh";
   graph.type = "column";
-  graph.balloonText = "Income in [[category]]:[[value]]";
+  graph.balloonText = "[[category]]:[[value]]";
   graph.lineAlpha = 0;
   graph.fillColors = "#bf1c25";
   graph.fillAlphas = 1;
   barChart.addGraph(graph);
 
-  barChart.creditsPosition = "top-left";
+  barChart.creditsPosition = "bottom-right";
 
   // WRITE
   barChart.write("barchart");
