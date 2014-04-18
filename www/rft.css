@@ -64,25 +64,29 @@ h2 {
 .leftchartcontainer {
   position: relative;
   top: 0px;
-  height: 310px;
-  width: 100%;
+  height: 305px;
+  width: 748px;
+  margin: 5px;
+  border-style: dashed;
+  border-width: 1px;
+  background-color: rgba(255, 200, 0, 0.3);
 }
 
 .amchart {
-  position: absolute;
-  left: 5px;
-  right: 5px;
-  top: 5px;
+  margin-top: 20px;
+  width: 100%;
 }
 
 #barchart {
   height: 620px;
 }
 
+#linechart1, #linechart2 {
+  height: 280px;
+}
+
 .charttitle {
   position: absolute;
-  left: 5px;
-  right: 5px;
-  top: 5px;
+  top: 0px;
   z-index: 20;
 }
