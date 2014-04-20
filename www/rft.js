@@ -1,11 +1,8 @@
-var jsonRequest = new XMLHttpRequest();
-jsonRequest.open('GET', 'sample_data.json', false);
-jsonRequest.send();
+var dataUrl = 'sample_data.json';
+var dataUpdateMs = 60000; // 1 minute
+var lineUpdateMs = 10000; // 10 seconds
 
-var rftData = JSON.parse(jsonRequest.responseText);
-// FIXME
-console.log(rftData);
-
+var rftData = fetchData(dataUrl);
 var barChart, lineChart1, lineChart2;
 
 AmCharts.ready(function () {
@@ -16,3 +13,23 @@ AmCharts.ready(function () {
   lineChart2 = new RFTChart('linechart', 'linechart2', 'linetitle2',
                             rftData.historyCharts, 1);
 });
+
+function fetchData (url) {
+  var request = new XMLHttpRequest();
+  request.open('GET', url, false);
+  request.send();
+
+  return JSON.parse(request.responseText);
+}
+
+// Update the line charts regularly
+window.setInterval(function () {
+  lineChart1.update();
+  lineChart2.update();
+}, lineUpdateMs);
+
+// Update data and the bar chart regularly
+window.setInterval(function () {
+  rftData = fetchData(dataUrl);
+  barChart.update();
+}, dataUpdateMs);
