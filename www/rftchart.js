@@ -65,6 +65,8 @@ RFTChart.prototype.initBarChart = function () {
   chart.addGraph(graph);
 
   chart.creditsPosition = "top-right";
+
+  chart.write(this.divId);
 };
 
 RFTChart.prototype.initLineChart = function () {
@@ -106,6 +108,8 @@ RFTChart.prototype.initLineChart = function () {
   chart.addGraph(graph);
 
   chart.creditsPosition = "top-right";
+
+  chart.write(this.divId);
 };
 
 RFTChart.prototype.update = function (chartData) {
@@ -119,11 +123,12 @@ RFTChart.prototype.update = function (chartData) {
     }
 
     var currentData = this.data[this.dataId];
+    this.chart.dataProvider = currentData.historyChart;
     this.title = currentData.room + ": " + currentData.name;
     this.setTitle();
   }
 
-  this.chart.write(this.divId);
+  this.chart.validateData();
 };
 
 RFTChart.prototype.setTitle = function () {
