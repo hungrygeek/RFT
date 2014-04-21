@@ -24,12 +24,12 @@ function fetchData (url) {
 
 // Update the line charts regularly
 window.setInterval(function () {
-  lineChart1.update();
-  lineChart2.update();
+  lineChart1.update(rftData.historyCharts);
+  lineChart2.update(rftData.historyCharts);
 }, lineUpdateMs);
 
 // Update data and the bar chart regularly
 window.setInterval(function () {
   rftData = fetchData(dataUrl);
-  barChart.update();
+  barChart.update(rftData.rankingChart);
 }, dataUpdateMs);
