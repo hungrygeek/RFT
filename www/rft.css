@@ -88,5 +88,6 @@ h2 {
 .charttitle {
   position: absolute;
   top: 0px;
+  left: 10px;
   z-index: 20;
 }
