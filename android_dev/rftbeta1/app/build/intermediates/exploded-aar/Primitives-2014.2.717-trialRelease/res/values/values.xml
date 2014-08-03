@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Program%20Files%20(x86)/Jenkins/jobs/BuildAll_master/workspace/Primitives/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="PointerLayout">
+        <attr name="pointerSize" format="dimension" />
+        <attr name="pointerMargin" format="dimension" />
+        <attr name="pointerFill" format="color" />
+    </declare-styleable>
+    <!-- From: file:/C:/Program%20Files%20(x86)/Jenkins/jobs/BuildAll_master/workspace/Primitives/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="legend_stroke_width">1dp</dimen>
+
+</resources>

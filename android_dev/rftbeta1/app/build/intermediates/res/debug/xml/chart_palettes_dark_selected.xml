@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<ChartPalette>
+    <PaletteEntryCollection Family="Area">
+        <PaletteEntry
+            Fill="#ffffff"
+            Stroke="#000000" />
+    </PaletteEntryCollection>
+
+    <PaletteEntryCollection Family="Line">
+        <PaletteEntry Stroke="#ffffff" />
+    </PaletteEntryCollection>
+
+    <PaletteEntryCollection Family="Pie">
+        <PaletteEntry Fill="#33B5E5" />
+        <PaletteEntry Fill="#AA66CC" />
+        <PaletteEntry Fill="#99CC00" />
+        <PaletteEntry Fill="#FFBB33" />
+        <PaletteEntry Fill="#FF4444" />
+        <PaletteEntry Fill="#5176F1" />
+        <PaletteEntry Fill="#22B573" />
+        <PaletteEntry Fill="#BC6435" />
+    </PaletteEntryCollection>
+
+    <PaletteEntryCollection Family="Bar">
+        <PaletteEntry Fill="#33B5E5" />
+        <PaletteEntry Fill="#AA66CC" />
+        <PaletteEntry Fill="#99CC00" />
+        <PaletteEntry Fill="#FFBB33" />
+        <PaletteEntry Fill="#FF4444" />
+        <PaletteEntry Fill="#5176F1" />
+        <PaletteEntry Fill="#22B573" />
+        <PaletteEntry Fill="#BC6435" />
+    </PaletteEntryCollection>
+
+    <PaletteEntryCollection Family="Ohlc">
+        <PaletteEntry
+            StrokeWidth="2"
+            Stroke="#ffffff"/>
+    </PaletteEntryCollection>
+</ChartPalette><!-- From: file:/C:/Program%20Files%20(x86)/Jenkins/jobs/BuildAll_master/workspace/Chart/src/main/res/xml/chart_palettes_dark_selected.xml --><!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/xml/chart_palettes_dark_selected.xml -->

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Program%20Files%20(x86)/Jenkins/jobs/BuildAll_master/workspace/Input/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="CalendarCellState">
+        <attr name="state_calendar_cell_today" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CalendarTheme">
+        <attr name="calendarStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="RadCalendarView">
+        <attr name="calendarBackground" format="color" />
+        <attr name="showTitle" format="boolean" />
+        <attr name="showDayNames" format="boolean" />
+        <attr name="showGridLines" format="boolean" />
+        <attr name="showCellDecorations" format="boolean" />
+        <attr name="selectionMode" format="enum">
+            <enum name="Single" value="0" />
+            <enum name="Range" value="1" />
+            <enum name="Multiple" value="2" />
+        </attr>
+        <attr name="displayMode" format="enum">
+            <enum name="Month" value="0" />
+            <enum name="Year" value="1" />
+            <enum name="Week" value="2" />
+        </attr>
+        <attr name="weekNumberDisplayMode" format="enum">
+            <enum name="None" value="0" />
+            <enum name="Inline" value="1" />
+            <enum name="Block" value="2" />
+        </attr>
+        <attr name="isYearModeCompact" format="boolean" />
+    </declare-styleable>
+    <!-- From: file:/C:/Program%20Files%20(x86)/Jenkins/jobs/BuildAll_master/workspace/Input/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="CalendarDefaultStyle">
+        <item name="calendarBackground">#E5E5E5</item>
+        <item name="showTitle">true</item>
+        <item name="showDayNames">true</item>
+        <item name="showGridLines">true</item>
+        <item name="showCellDecorations">true</item>
+        <item name="selectionMode">Multiple</item>
+        <item name="displayMode">Month</item>
+        <item name="weekNumberDisplayMode">None</item>
+        <item name="isYearModeCompact">false</item>
+    </style>
+    <!-- From: file:/C:/Program%20Files%20(x86)/Jenkins/jobs/BuildAll_master/workspace/Input/src/main/res/values/themes.xml -->
+    <eat-comment />
+
+    <style name="Theme.CalendarTheme" parent="android:Theme.Light">
+        <item name="calendarStyle">@style/CalendarDefaultStyle</item>
+    </style>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:id="@+id/legendItemIconView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="15dp"
+        android:minHeight="15dp" />
+
+    <TextView
+        android:id="@+id/legendItemTitleView"
+        android:paddingLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</merge><!-- From: file:/C:/Program%20Files%20(x86)/Jenkins/jobs/BuildAll_master/workspace/Chart/src/main/res/layout/legend_item_view.xml -->

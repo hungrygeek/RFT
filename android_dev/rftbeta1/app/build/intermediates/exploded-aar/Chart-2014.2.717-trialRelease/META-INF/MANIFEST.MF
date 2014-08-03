@@ -1,0 +1,54 @@
+Manifest-Version: 1.0
+Created-By: 1.7.0_45 (Oracle Corporation)
+
+Name: res/values/values.xml
+SHA1-Digest: rolp6K0nGU21QuSFOaCnp7p6gx8=
+
+Name: res/layout/legend_item_view.xml
+SHA1-Digest: CmFIjnANC9SFwVo0J4qZbSQOw0U=
+
+Name: res/xml/chart_palettes_default_light.xml
+SHA1-Digest: LNCxzTEaXxLjq5nDvJKsgTUMc78=
+
+Name: classes.jar
+SHA1-Digest: DsG6pG5CwTWKk0JHXCat0fDfwUk=
+
+Name: res/layout/default_trackball_content.xml
+SHA1-Digest: e25698nTMVLrW9ViC72H2cqrIrQ=
+
+Name: res/layout/default_trackball_item_content.xml
+SHA1-Digest: uQlz3vPGcx5LL89SeD/q8OPQ334=
+
+Name: res/layout/range_trackball_item_content.xml
+SHA1-Digest: FW+JNtkdjQcMNfVnVhOmygFyGEE=
+
+Name: res/layout/default_tooltip_ohlc_content.xml
+SHA1-Digest: a1NlzWhe4EBKlxPVZIlSSuswAHY=
+
+Name: AndroidManifest.xml
+SHA1-Digest: Bi+0u2M6/tVqx8w65V46vuTK/Ls=
+
+Name: res/layout/radlegendcontrol.xml
+SHA1-Digest: b8DdG0DVwscGhxOCHtb94G0bjcg=
+
+Name: res/xml/chart_palettes_default_dark.xml
+SHA1-Digest: GA1rcVaYTkLJX56U31PB7K0Q4wE=
+
+Name: res/layout/ohlc_trackball_item_content.xml
+SHA1-Digest: mq5KNYjIfL3j+DIV32poMcGa9+I=
+
+Name: res/layout/radchartbase.xml
+SHA1-Digest: OgTopSLzt1uPdomqWAxTSYe/JpM=
+
+Name: res/layout/trackball_container.xml
+SHA1-Digest: NPXoAp1l1uM1e0tfmtmNFDy/sXs=
+
+Name: res/xml/chart_palettes_dark_selected.xml
+SHA1-Digest: ClkTKpuvtF/Cz08s9PeLGreKRl0=
+
+Name: R.txt
+SHA1-Digest: CZT5IglFSzD8yhJU0HH9xBn99co=
+
+Name: res/xml/chart_palettes_light_selected.xml
+SHA1-Digest: bMLFhF9SVDxL6C9pufIOVamFZ3E=
+
