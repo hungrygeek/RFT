@@ -23,7 +23,113 @@
             android:layout_height="fill_parent"
             android:layout_weight="1"
             android:id="@+id/day_1"
-            android:orientation="horizontal">
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:id="@+id/proud_name"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Best Three of Last Week"
+                    android:gravity="center_horizontal"/>
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/proud_chart"
+                android:layout_weight="0.2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/stu_p1"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2"
+                        android:id="@+id/stu_p1_name"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="Stu A"
+                            android:gravity="center"/>
+
+                        </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5"
+                        android:id="@+id/stu_p1_chart"
+                        android:orientation="vertical"></LinearLayout>
+
+                    </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/stu_p2"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2"
+                        android:id="@+id/stu_p2_name"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="Stu B"
+                            android:gravity="center"/>
+                        </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5"
+                        android:id="@+id/stu_p2_chart"
+                        android:orientation="vertical"></LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/stu_p3"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2"
+                        android:id="@+id/stu_p3_name"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="Stu C"
+                            android:gravity="center" />
+                        </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5"
+                        android:id="@+id/stu_p3_chart"
+                        android:orientation="vertical"></LinearLayout>
+
+                </LinearLayout>
+
+
+
+        </LinearLayout>
+
 
         </LinearLayout>
 
@@ -32,7 +138,108 @@
             android:layout_height="fill_parent"
             android:layout_weight="1"
             android:id="@+id/day_2"
-            android:orientation="horizontal">
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:id="@+id/shame_name"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Worst Three of Last Week"
+                    android:gravity="center_horizontal"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/shame_chart"
+                android:layout_weight="0.2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/stu_s1"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2"
+                        android:id="@+id/stu_s1_name"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="Stu D"
+                            android:gravity="center"/>
+                        </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5"
+                        android:id="@+id/stu_s1_chart"
+                        android:orientation="vertical"></LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/stu_s2"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2"
+                        android:id="@+id/stu_s2_name"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="Stu E"
+                            android:gravity="center"/>
+                        </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5"
+                        android:id="@+id/stu_s2_chart"
+                        android:orientation="vertical"></LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/stu_s3"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2"
+                        android:id="@+id/stu_s3_name"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="Stu F"
+                            android:gravity="center"/>
+                        </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5"
+                        android:id="@+id/stu_s3_chart"
+                        android:orientation="vertical"></LinearLayout>
+
+                </LinearLayout>
+                </LinearLayout>
 
         </LinearLayout>
 
@@ -43,9 +250,43 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_weight="1"
+        android:layout_weight="0.8"
         android:id="@+id/rank_graph"
         android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/vs_title"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:src="@drawable/stuname1"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Stu A VS Stu B"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="0.6"/>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:src="@drawable/stuname2"/>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/vs_chart"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+
+        </LinearLayout>
 
 
     </LinearLayout>

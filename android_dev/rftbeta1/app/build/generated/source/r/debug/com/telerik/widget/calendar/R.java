@@ -296,9 +296,9 @@ public final class R {
 		public static final int activity_chooser_view_content = 0x7f06004c;
 		public static final int always = 0x7f060031;
 		public static final int beginning = 0x7f06002c;
-		public static final int calendarInnerLayout = 0x7f060079;
-		public static final int calendarMainLayout = 0x7f060078;
-		public static final int calendarTableLayout = 0x7f06007a;
+		public static final int calendarInnerLayout = 0x7f060091;
+		public static final int calendarMainLayout = 0x7f060090;
+		public static final int calendarTableLayout = 0x7f060092;
 		public static final int checkbox = 0x7f060054;
 		public static final int collapseActionView = 0x7f060033;
 		public static final int default_activity_button = 0x7f06004f;

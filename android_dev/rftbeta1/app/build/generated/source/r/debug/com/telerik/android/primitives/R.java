@@ -274,10 +274,10 @@ public final class R {
 		public static final int activity_chooser_view_content = 0x7f06004c;
 		public static final int always = 0x7f060031;
 		public static final int beginning = 0x7f06002c;
-		public static final int chart_data_point_content_container = 0x7f060095;
-		public static final int chart_tooltip_category = 0x7f06007c;
-		public static final int chart_tooltip_pointer = 0x7f060094;
-		public static final int chart_tooltip_value = 0x7f06007d;
+		public static final int chart_data_point_content_container = 0x7f0600ad;
+		public static final int chart_tooltip_category = 0x7f060094;
+		public static final int chart_tooltip_pointer = 0x7f0600ac;
+		public static final int chart_tooltip_value = 0x7f060095;
 		public static final int checkbox = 0x7f060054;
 		public static final int collapseActionView = 0x7f060033;
 		public static final int default_activity_button = 0x7f06004f;
@@ -320,7 +320,7 @@ public final class R {
 		public static final int submit_area = 0x7f060060;
 		public static final int tabMode = 0x7f060005;
 		public static final int title = 0x7f060052;
-		public static final int tooltip_content_container = 0x7f06007b;
+		public static final int tooltip_content_container = 0x7f060093;
 		public static final int top_action_bar = 0x7f060047;
 		public static final int up = 0x7f060048;
 		public static final int useLogo = 0x7f060006;
