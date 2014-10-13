@@ -38,7 +38,7 @@ public class CustomBarPointRenderer extends BarPointRenderer {
         RectF pointRect = Util.convertToRectF(layoutSlot);
         Paint fillPaint = new Paint();
         CategoricalDataPoint categoricalDataPoint = (CategoricalDataPoint)point;
-        if(categoricalDataPoint.getValue() >= 1.5) {
+        if(categoricalDataPoint.getValue() >= 1.3) {
             fillPaint.setColor(Color.RED);
         } else {
             fillPaint.setColor(Color.GREEN);

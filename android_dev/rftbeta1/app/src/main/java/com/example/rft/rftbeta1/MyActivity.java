@@ -150,6 +150,7 @@ public class MyActivity extends Activity {
         chartView1.setVerticalAxis(linearAxis1);
 
         categoricalAxis1.setGapLength((float) 0.1);
+        barSeries1.setDataPointRenderer(new CustomBarPointRenderer(barSeries));
         //lineSeries1.setShowLabels(true);
 
 
@@ -178,6 +179,7 @@ public class MyActivity extends Activity {
         linearAxis3.setShowLabels(false);
         chartView2.setVerticalAxis(linearAxis3);
         categoricalAxis3.setGapLength((float) 0.1);
+        barSeries3.setDataPointRenderer(new CustomBarPointRenderer(barSeries));
 
         //lineSeries3.setShowLabels(true);
         BarSeries barSeries4 = new BarSeries(this);
@@ -205,6 +207,7 @@ public class MyActivity extends Activity {
         linearAxis4.setShowLabels(false);
         chartView3.setVerticalAxis(linearAxis4);
         categoricalAxis4.setGapLength((float) 0.1);
+        barSeries4.setDataPointRenderer(new CustomBarPointRenderer(barSeries));
 
 
         BarSeries barSeries5 = new BarSeries(this);
@@ -231,7 +234,8 @@ public class MyActivity extends Activity {
         LinearAxis linearAxis5 =new LinearAxis(this);
         linearAxis5.setShowLabels(false);
         chartView4.setVerticalAxis(linearAxis5);
-        categoricalAxis5.setGapLength((float) 0.1); 
+        categoricalAxis5.setGapLength((float) 0.1);
+        barSeries5.setDataPointRenderer(new CustomBarPointRenderer(barSeries));
 
 
 
@@ -406,7 +410,7 @@ public class MyActivity extends Activity {
         dayCosumpList3.add(new DayCosump("Th",Double.parseDouble(data_array[28])));
         dayCosumpList3.add(new DayCosump("F",Double.parseDouble(data_array[19])));
         dayCosumpList3.add(new DayCosump("Sa",Double.parseDouble(data_array[22])));
-        dayCosumpList2.add(new DayCosump("Su",Double.parseDouble(data_array[28])));
+        dayCosumpList3.add(new DayCosump("Su",Double.parseDouble(data_array[28])));
     }
 
     private void initData4() {
@@ -420,9 +424,9 @@ public class MyActivity extends Activity {
         dayCosumpList4.add(new DayCosump("Tu",Double.parseDouble(data_array[25])));
         dayCosumpList4.add(new DayCosump("W",Double.parseDouble(data_array[22])));
         dayCosumpList4.add(new DayCosump("Th",Double.parseDouble(data_array[10])));
-        dayCosumpList4.add(new DayCosump("F",Double.parseDouble(data_array[9])));
-        dayCosumpList4.add(new DayCosump("Sa",Double.parseDouble(data_array[11])));
-        dayCosumpList2.add(new DayCosump("Su",Double.parseDouble(data_array[28])));
+        dayCosumpList4.add(new DayCosump("F",0.5));
+        dayCosumpList4.add(new DayCosump("Sa",1.0));
+        dayCosumpList4.add(new DayCosump("Su",2.0));
     }
 
 
