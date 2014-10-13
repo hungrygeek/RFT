@@ -1,2 +1,5 @@
 # Ignore mechanical files.
 mechanical/
+
+# OSX
+.DS_Store
