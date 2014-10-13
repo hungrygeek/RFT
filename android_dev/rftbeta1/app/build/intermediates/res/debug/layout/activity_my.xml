@@ -14,7 +14,7 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_weight="1"
+        android:layout_weight="0.5"
         android:orientation="vertical"
         android:id="@+id/day_all">
 
@@ -24,24 +24,24 @@
             android:layout_weight="1"
             android:id="@+id/day_1"
             android:orientation="vertical">
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:id="@+id/proud_name"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:text="Best Three of Last Week"
-                    android:gravity="center_horizontal"/>
-                </LinearLayout>
+
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:id="@+id/proud_chart"
                 android:layout_weight="0.2"
                 android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.05">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textSize="20sp"
+                        android:text="Top Weekly Change"
+                        android:gravity="center_horizontal"/>
+                    </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="fill_parent"
@@ -52,22 +52,62 @@
                     <LinearLayout
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:layout_weight="2"
-                        android:id="@+id/stu_p1_name"
-                        android:orientation="vertical">
+                        android:layout_weight="1.2"
+
+                        android:orientation="horizontal">
                         <TextView
                             android:layout_width="fill_parent"
                             android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:text="1"
+                            android:gravity="center_vertical"
+                            android:textSize="28sp"/>
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.5"
                             android:text="Stu A"
-                            android:gravity="center"/>
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:id="@+id/stu_p1_name"/>
+
 
                         </LinearLayout>
                     <LinearLayout
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:layout_weight="0.5"
-                        android:id="@+id/stu_p1_chart"
-                        android:orientation="vertical"></LinearLayout>
+
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.8"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1">
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="2.0"
+                                    android:gravity="center"
+                                    android:text="- 44%"
+                                    android:textSize="20sp"
+                                    android:textColor="#01DF01"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:id="@+id/stu_p1_chart"></LinearLayout>
+                        </LinearLayout>
 
                     </LinearLayout>
 
@@ -81,21 +121,58 @@
                     <LinearLayout
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:layout_weight="2"
-                        android:id="@+id/stu_p2_name"
-                        android:orientation="vertical">
+                        android:layout_weight="1.2"
+
+                        android:orientation="horizontal">
                         <TextView
                             android:layout_width="fill_parent"
                             android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:text="2"
+                            android:gravity="center_vertical"
+                            android:textSize="28sp"/>
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.5"
+                            android:textSize="13sp"
                             android:text="Stu B"
-                            android:gravity="center"/>
+                            android:gravity="center"
+                            android:id="@+id/stu_p2_name"/>
+
                         </LinearLayout>
                     <LinearLayout
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:layout_weight="0.5"
-                        android:id="@+id/stu_p2_chart"
-                        android:orientation="vertical"></LinearLayout>
+
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.8"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1">
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="2.0"
+                                    android:gravity="center"
+                                    android:text="- 28%"
+                                    android:textSize="20sp"
+                                    android:textColor="#01DF01"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:id="@+id/stu_p2_chart"></LinearLayout>
+                        </LinearLayout>
 
                 </LinearLayout>
 
@@ -108,21 +185,191 @@
                     <LinearLayout
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:layout_weight="2"
-                        android:id="@+id/stu_p3_name"
-                        android:orientation="vertical">
+                        android:layout_weight="1.2"
+
+                        android:orientation="horizontal">
                         <TextView
                             android:layout_width="fill_parent"
                             android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:text="3"
+                            android:gravity="center_vertical"
+                            android:textSize="28sp"/>
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.5"
+                            android:textSize="13sp"
                             android:text="Stu C"
-                            android:gravity="center" />
+                            android:gravity="center"
+                            android:id="@+id/stu_p3_name" />
+
                         </LinearLayout>
                     <LinearLayout
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:layout_weight="0.5"
-                        android:id="@+id/stu_p3_chart"
-                        android:orientation="vertical"></LinearLayout>
+
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.8"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1">
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="2.0"
+                                    android:gravity="center"
+                                    android:text="- 26%"
+                                    android:textSize="20sp"
+                                    android:textColor="#01DF01"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:id="@+id/stu_p3_chart"></LinearLayout>
+                        </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/stu_p4"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.2"
+
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:text="4"
+                            android:gravity="center_vertical"
+                            android:textSize="28sp"/>
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.5"
+                            android:textSize="13sp"
+                            android:text="Stu D"
+                            android:gravity="center"
+                            android:id="@+id/stu_p4_name"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5"
+
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.8"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1">
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="2.0"
+                                    android:gravity="center"
+                                    android:text="- 17%"
+                                    android:textSize="20sp"
+                                    android:textColor="#01DF01"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:id="@+id/stu_p4_chart">
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/stu_p5"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.2"
+
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:text="5"
+                            android:gravity="center_vertical"
+                            android:textSize="28sp"/>
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.5"
+                            android:textSize="13sp"
+                            android:text="Stu E"
+                            android:gravity="center"
+                            android:id="@+id/stu_p5_name"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5"
+
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.8"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1">
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="2.0"
+                                    android:gravity="center"
+                                    android:text="- 5%"
+                                    android:textSize="20sp"
+                                    android:textColor="#01DF01"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:id="@+id/stu_p5_chart"></LinearLayout>
+                        </LinearLayout>
 
                 </LinearLayout>
 
@@ -133,7 +380,7 @@
 
         </LinearLayout>
 
-        <LinearLayout
+    <!--    <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -145,7 +392,7 @@
                 android:layout_weight="1"
                 android:id="@+id/shame_name"
                 android:orientation="vertical">
-                <TextView
+               <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:text="Worst Three of Last Week"
@@ -243,6 +490,8 @@
 
         </LinearLayout>
 
+        -->
+
 
     </LinearLayout>
 
@@ -250,7 +499,7 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_weight="0.8"
+        android:layout_weight="0.5"
         android:id="@+id/rank_graph"
         android:orientation="vertical">
 
@@ -260,23 +509,27 @@
             android:id="@+id/vs_title"
             android:layout_weight="1"
             android:orientation="horizontal">
-            <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:src="@drawable/stuname1"/>
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Stu A VS Stu B"
+                android:layout_weight="1"
+                android:text="Jas Birk"
+                android:textSize="16sp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="VS"
                 android:gravity="center"
-                android:textSize="20sp"
-                android:layout_weight="0.6"/>
-            <ImageView
+                android:textSize="25sp"
+                android:layout_weight="1"/>
+            <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:src="@drawable/stuname2"/>
+                android:text="Oliva Capewell"
+                android:textSize="16sp"
+                android:gravity="center"/>
             </LinearLayout>
 
         <LinearLayout
@@ -287,6 +540,8 @@
             android:orientation="horizontal">
 
         </LinearLayout>
+
+
 
 
     </LinearLayout>
