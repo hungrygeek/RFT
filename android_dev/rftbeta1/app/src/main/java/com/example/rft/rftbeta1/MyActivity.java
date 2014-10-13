@@ -91,6 +91,7 @@ public class MyActivity extends Activity {
 
 
         BarSeries barSeries = new BarSeries(this);
+
         barSeries.setCategoryBinding(new DataPointBinding() {
             @Override
             public Object getValue(Object o) throws IllegalArgumentException {
@@ -106,14 +107,19 @@ public class MyActivity extends Activity {
         });
 
         barSeries.setData(this.dayCosumpList4);
-        chartView.getSeries().add(barSeries);
-
         CategoricalAxis categoricalAxis = new CategoricalAxis(this);
         chartView.setHorizontalAxis(categoricalAxis);
 
         LinearAxis linearAxis =new LinearAxis(this);
         chartView.setVerticalAxis(linearAxis);
         categoricalAxis.setGapLength((float) 0.1);
+        linearAxis.setShowLabels(false);
+        chartView.getSeries().add(barSeries);
+        barSeries.setDataPointRenderer(new CustomBarPointRenderer(barSeries));
+
+
+
+
         //lineSeries.setShowLabels(true);
 
 
@@ -300,6 +306,9 @@ public class MyActivity extends Activity {
 
         chart3.addView(linearLayout);
         //chart3.addView(barChart);
+
+
+
 
 
 
