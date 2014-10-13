@@ -146,7 +146,9 @@ public class MyActivity extends Activity {
         chartView1.setHorizontalAxis(categoricalAxis1);
 
         LinearAxis linearAxis1 =new LinearAxis(this);
+        linearAxis1.setShowLabels(false);
         chartView1.setVerticalAxis(linearAxis1);
+
         categoricalAxis1.setGapLength((float) 0.1);
         //lineSeries1.setShowLabels(true);
 
@@ -173,6 +175,7 @@ public class MyActivity extends Activity {
         chartView2.setHorizontalAxis(categoricalAxis3);
 
         LinearAxis linearAxis3 =new LinearAxis(this);
+        linearAxis3.setShowLabels(false);
         chartView2.setVerticalAxis(linearAxis3);
         categoricalAxis3.setGapLength((float) 0.1);
 
@@ -199,6 +202,7 @@ public class MyActivity extends Activity {
         chartView3.setHorizontalAxis(categoricalAxis4);
 
         LinearAxis linearAxis4 =new LinearAxis(this);
+        linearAxis4.setShowLabels(false);
         chartView3.setVerticalAxis(linearAxis4);
         categoricalAxis4.setGapLength((float) 0.1);
 
@@ -225,6 +229,7 @@ public class MyActivity extends Activity {
         chartView4.setHorizontalAxis(categoricalAxis5);
 
         LinearAxis linearAxis5 =new LinearAxis(this);
+        linearAxis5.setShowLabels(false);
         chartView4.setVerticalAxis(linearAxis5);
         categoricalAxis5.setGapLength((float) 0.1); 
 
