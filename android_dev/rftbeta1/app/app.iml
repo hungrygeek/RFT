@@ -61,13 +61,13 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 19 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="Input-2014.3.1023-devRelease" level="project" />
+    <orderEntry type="library" exported="" name="Feedback-2014.3.1023-devRelease" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-19.1.0" level="project" />
     <orderEntry type="library" exported="" name="support-v4-19.1.0" level="project" />
-    <orderEntry type="library" exported="" name="Chart-2014.2.717-trialRelease" level="project" />
-    <orderEntry type="library" exported="" name="Primitives-2014.2.717-trialRelease" level="project" />
-    <orderEntry type="library" exported="" name="Common-2014.2.717-trialRelease" level="project" />
-    <orderEntry type="library" exported="" name="Input-2014.2.717-trialRelease" level="project" />
-    <orderEntry type="library" exported="" name="Feedback-2014.2.717-trialRelease" level="project" />
+    <orderEntry type="library" exported="" name="Primitives-2014.3.1023-devRelease" level="project" />
+    <orderEntry type="library" exported="" name="Chart-2014.3.1023-devRelease" level="project" />
+    <orderEntry type="library" exported="" name="Common-2014.3.1023-devRelease" level="project" />
   </component>
 </module>
 

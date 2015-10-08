@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merger version="2" >
 
-    <dataSet config="Primitives-2014.2.717-trialRelease" >
-        <source path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Primitives-2014.2.717-trialRelease/res" >
+    <dataSet config="Primitives-2014.3.1023-devRelease" >
+        <source path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Primitives-2014.3.1023-devRelease/res" >
             <file
                 name="default_tooltip_content"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Primitives-2014.2.717-trialRelease/res/layout/default_tooltip_content.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Primitives-2014.3.1023-devRelease/res/layout/default_tooltip_content.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="tooltip_container"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Primitives-2014.2.717-trialRelease/res/layout/tooltip_container.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Primitives-2014.3.1023-devRelease/res/layout/tooltip_container.xml"
                 qualifiers=""
                 type="layout" />
             <file
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Primitives-2014.2.717-trialRelease/res/values/values.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Primitives-2014.3.1023-devRelease/res/values/values.xml"
                 qualifiers="" >
                 <declare-styleable name="PointerLayout" >
                     <attr
@@ -28,50 +28,85 @@
                         format="color" />
                 </declare-styleable>
 
+                <style name="RadScrollViewStyle" >
+                    <item name="fillViewport">
+false
+                    </item>
+                    <item name="scrollMode">
+vertical
+                    </item>
+                </style>
+
+                <style name="RadScrollViewTheme" >
+                    <item name="radScrollViewStyle">
+@style/RadScrollViewStyle
+                    </item>
+                </style>
+
+                <declare-styleable name="RadScrollView" >
+                    <attr
+                        name="fillViewport"
+                        format="boolean" />
+                    <attr name="scrollMode" >
+                        <flag
+                            name="vertical"
+                            value="1" />
+                        <flag
+                            name="horizontal"
+                            value="2" />
+                    </attr>
+                </declare-styleable>
+
                 <dimen name="legend_stroke_width" >1dp
                 </dimen>
+
+                <declare-styleable name="RadScrollViewTheme" >
+                    <attr
+                        name="radScrollViewStyle"
+                        format="reference" />
+                </declare-styleable>
             </file>
         </source>
     </dataSet>
-    <dataSet config="Input-2014.2.717-trialRelease" >
-        <source path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.2.717-trialRelease/res" >
+    <dataSet config="Input-2014.3.1023-devRelease" >
+        <source path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.3.1023-devRelease/res" >
             <file
                 name="calendar_cell"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.2.717-trialRelease/res/drawable/calendar_cell.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.3.1023-devRelease/res/drawable/calendar_cell.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="calendar_cell_disabled"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.2.717-trialRelease/res/drawable/calendar_cell_disabled.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.3.1023-devRelease/res/drawable/calendar_cell_disabled.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="calendar_cell_normal"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.2.717-trialRelease/res/drawable/calendar_cell_normal.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.3.1023-devRelease/res/drawable/calendar_cell_normal.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="calendar_cell_pressed"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.2.717-trialRelease/res/drawable/calendar_cell_pressed.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.3.1023-devRelease/res/drawable/calendar_cell_pressed.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="calendar_cell_selected"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.2.717-trialRelease/res/drawable/calendar_cell_selected.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.3.1023-devRelease/res/drawable/calendar_cell_selected.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="calendar_cell_today"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.2.717-trialRelease/res/drawable/calendar_cell_today.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.3.1023-devRelease/res/drawable/calendar_cell_today.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="calendar"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.2.717-trialRelease/res/layout/calendar.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.3.1023-devRelease/res/layout/calendar.xml"
                 qualifiers=""
                 type="layout" />
             <file
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.2.717-trialRelease/res/values/values.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.3.1023-devRelease/res/values/values.xml"
                 qualifiers="" >
 
                 <style name="CalendarDefaultStyle" >
@@ -185,160 +220,160 @@ false
             </file>
         </source>
     </dataSet>
-    <dataSet config="Feedback-2014.2.717-trialRelease" >
-        <source path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res" >
+    <dataSet config="Feedback-2014.3.1023-devRelease" >
+        <source path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res" >
             <file
                 name="comment_indicator"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/drawable-hdpi-v4/comment_indicator.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/drawable-hdpi-v4/comment_indicator.xml"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="done_button"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/drawable-hdpi-v4/done_button.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/drawable-hdpi-v4/done_button.xml"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="feedback_prompt_background"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/drawable-hdpi-v4/feedback_prompt_background.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/drawable-hdpi-v4/feedback_prompt_background.xml"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_done"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/drawable-hdpi-v4/ic_done.png"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/drawable-hdpi-v4/ic_done.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_feedback_sync"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/drawable-hdpi-v4/ic_feedback_sync.png"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/drawable-hdpi-v4/ic_feedback_sync.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_send"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/drawable-hdpi-v4/ic_send.png"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/drawable-hdpi-v4/ic_send.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_done"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/drawable-mdpi-v4/ic_done.png"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/drawable-mdpi-v4/ic_done.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_feedback_sync"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/drawable-mdpi-v4/ic_feedback_sync.png"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/drawable-mdpi-v4/ic_feedback_sync.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_send"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/drawable-mdpi-v4/ic_send.png"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/drawable-mdpi-v4/ic_send.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_done"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/drawable-xhdpi-v4/ic_done.png"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/drawable-xhdpi-v4/ic_done.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_feedback_sync"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/drawable-xhdpi-v4/ic_feedback_sync.png"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/drawable-xhdpi-v4/ic_feedback_sync.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_send"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/drawable-xhdpi-v4/ic_send.png"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/drawable-xhdpi-v4/ic_send.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_done"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/drawable-xxhdpi-v4/ic_done.png"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/drawable-xxhdpi-v4/ic_done.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_feedback_sync"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/drawable-xxhdpi-v4/ic_feedback_sync.png"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/drawable-xxhdpi-v4/ic_feedback_sync.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_send"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/drawable-xxhdpi-v4/ic_send.png"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/drawable-xxhdpi-v4/ic_send.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="activity_edit_details"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/layout/activity_edit_details.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/layout/activity_edit_details.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_send_feedback"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/layout/activity_send_feedback.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/layout/activity_send_feedback.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_view_feedback"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/layout/activity_view_feedback.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/layout/activity_view_feedback.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_view_feedback_item"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/layout/activity_view_feedback_item.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/layout/activity_view_feedback_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="feedback_comment"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/layout/feedback_comment.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/layout/feedback_comment.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="feedback_indicator"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/layout/feedback_indicator.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/layout/feedback_indicator.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="feedback_item"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/layout/feedback_item.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/layout/feedback_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="fragment_feedback_items"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/layout/fragment_feedback_items.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/layout/fragment_feedback_items.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="list_progress_indicator"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/layout/list_progress_indicator.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/layout/list_progress_indicator.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="main_menu_content"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/layout/main_menu_content.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/layout/main_menu_content.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="main_menu_list_item"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/layout/main_menu_list_item.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/layout/main_menu_list_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="popup_edit_details"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/layout/popup_edit_details.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/layout/popup_edit_details.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="edit_details"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/menu/edit_details.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/menu/edit_details.xml"
                 qualifiers=""
                 type="menu" />
             <file
                 name="send_feedback_activity_menu"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/menu/send_feedback_activity_menu.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/menu/send_feedback_activity_menu.xml"
                 qualifiers=""
                 type="menu" />
             <file
                 name="view_feedback_items_activity_menu"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/menu/view_feedback_items_activity_menu.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/menu/view_feedback_items_activity_menu.xml"
                 qualifiers=""
                 type="menu" />
             <file
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/values/values.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/values/values.xml"
                 qualifiers="" >
                 <string name="action_settings" >Settings
                 </string>
@@ -424,22 +459,22 @@ false
                 </string>
             </file>
             <file
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/values-w820dp-v13/values.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/values-w820dp-v13/values.xml"
                 qualifiers="w820dp-v13" >
                 <dimen name="activity_horizontal_margin" >64dp
                 </dimen>
             </file>
         </source>
     </dataSet>
-    <dataSet config="Common-2014.2.717-trialRelease" >
-        <source path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Common-2014.2.717-trialRelease/res" >
+    <dataSet config="Common-2014.3.1023-devRelease" >
+        <source path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Common-2014.3.1023-devRelease/res" >
             <file
                 name="trial_message"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Common-2014.2.717-trialRelease/res/layout/trial_message.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Common-2014.3.1023-devRelease/res/layout/trial_message.xml"
                 qualifiers=""
                 type="layout" />
             <file
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Common-2014.2.717-trialRelease/res/values/values.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Common-2014.3.1023-devRelease/res/values/values.xml"
                 qualifiers="" >
                 <color name="white" >#FFFFFFFF
                 </color>
@@ -453,55 +488,65 @@ false
             </file>
         </source>
     </dataSet>
-    <dataSet config="Chart-2014.2.717-trialRelease" >
-        <source path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res" >
+    <dataSet config="Chart-2014.3.1023-devRelease" >
+        <source path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res" >
             <file
                 name="default_tooltip_ohlc_content"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/layout/default_tooltip_ohlc_content.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/layout/default_tooltip_ohlc_content.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="default_tooltip_scatter_bubble_content"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/layout/default_tooltip_scatter_bubble_content.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="default_tooltip_scatter_content"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/layout/default_tooltip_scatter_content.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="default_trackball_content"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/layout/default_trackball_content.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/layout/default_trackball_content.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="default_trackball_item_content"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/layout/default_trackball_item_content.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/layout/default_trackball_item_content.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="legend_item_view"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/layout/legend_item_view.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/layout/legend_item_view.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="ohlc_trackball_item_content"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/layout/ohlc_trackball_item_content.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/layout/ohlc_trackball_item_content.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="radchartbase"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/layout/radchartbase.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/layout/radchartbase.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="radlegendcontrol"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/layout/radlegendcontrol.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/layout/radlegendcontrol.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="range_trackball_item_content"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/layout/range_trackball_item_content.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/layout/range_trackball_item_content.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="trackball_container"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/layout/trackball_container.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/layout/trackball_container.xml"
                 qualifiers=""
                 type="layout" />
             <file
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/values/values.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/values/values.xml"
                 qualifiers="" >
 
                 <style name="ChartAnnotationStyle" >
@@ -873,10 +918,6 @@ true
                 <attr
                     name="labelSize"
                     format="dimension" />
-
-                <dimen name="two_dp" >2dp
-                </dimen>
-
                 <attr
                     name="labelFont"
                     format="string" />
@@ -964,9 +1005,6 @@ true
                         name="labelInterval"
                         format="integer" />
                 </declare-styleable>
-
-                <dimen name="five_dp" >5dp
-                </dimen>
 
                 <style name="ChartAnnotationStyle.CartesianStrokedAnnotationStyle.CartesianPlotBandAnnotationStyle" >
                     <item name="fillColor">
@@ -1094,9 +1132,7 @@ false
                     parent="AppBaseTheme" >
 
                     <!-- ALL customizations that are NOT specific to a particular API-level can go here. -->
-                    <item name="background">
-@color/red
-                    </item>
+
                 </style>
 
                 <style
@@ -1206,22 +1242,22 @@ false
             </file>
             <file
                 name="chart_palettes_dark_selected"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/xml/chart_palettes_dark_selected.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/xml/chart_palettes_dark_selected.xml"
                 qualifiers=""
                 type="xml" />
             <file
                 name="chart_palettes_default_dark"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/xml/chart_palettes_default_dark.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/xml/chart_palettes_default_dark.xml"
                 qualifiers=""
                 type="xml" />
             <file
                 name="chart_palettes_default_light"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/xml/chart_palettes_default_light.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/xml/chart_palettes_default_light.xml"
                 qualifiers=""
                 type="xml" />
             <file
                 name="chart_palettes_light_selected"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/xml/chart_palettes_light_selected.xml"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/xml/chart_palettes_light_selected.xml"
                 qualifiers=""
                 type="xml" />
         </source>
@@ -5990,16 +6026,16 @@ useLogo|showHome|showTitle
                     msgid="2031811694353399454" >"Επιλέξτε κάποια εφαρμογή"
                 </string>
                 <string
+                    name="abc_searchview_description_clear"
+                    msgid="3691816814315814921" >"Διαγραφή ερωτήματος"
+                </string>
+                <string
                     name="abc_searchview_description_voice"
                     msgid="893419373245838918" >"Φωνητική αναζήτηση"
                 </string>
                 <string
                     name="abc_action_menu_overflow_description"
                     msgid="3588849162933574182" >"Περισσότερες επιλογές"
-                </string>
-                <string
-                    name="abc_searchview_description_clear"
-                    msgid="3691816814315814921" >"Διαγραφή ερωτήματος"
                 </string>
             </file>
             <file
@@ -7322,16 +7358,16 @@ false
                     msgid="4076576682505996667" >"Atlikta"
                 </string>
                 <string
+                    name="abc_action_bar_home_description"
+                    msgid="4600421777120114993" >"Eiti į pagrindinį puslapį"
+                </string>
+                <string
                     name="abc_searchview_description_search"
                     msgid="8264924765203268293" >"Paieška"
                 </string>
                 <string
                     name="abc_shareactionprovider_share_with_application"
                     msgid="7165123711973476752" >"Bendrinti naudojant „%s“"
-                </string>
-                <string
-                    name="abc_action_bar_home_description"
-                    msgid="4600421777120114993" >"Eiti į pagrindinį puslapį"
                 </string>
             </file>
             <file
@@ -7974,24 +8010,24 @@ false
                     msgid="3588849162933574182" >"Več možnosti"
                 </string>
                 <string
-                    name="abc_shareactionprovider_share_with"
-                    msgid="3421042268587513524" >"Deljenje z"
+                    name="abc_action_mode_done"
+                    msgid="4076576682505996667" >"Končano"
                 </string>
                 <string
                     name="abc_activity_chooser_view_see_all"
                     msgid="7468859129482906941" >"Pokaži vse"
                 </string>
                 <string
-                    name="abc_action_mode_done"
-                    msgid="4076576682505996667" >"Končano"
-                </string>
-                <string
-                    name="abc_searchview_description_submit"
-                    msgid="8928215447528550784" >"Pošiljanje poizvedbe"
+                    name="abc_shareactionprovider_share_with"
+                    msgid="3421042268587513524" >"Deljenje z"
                 </string>
                 <string
                     name="abc_searchview_description_query"
                     msgid="2550479030709304392" >"Iskalna poizvedba"
+                </string>
+                <string
+                    name="abc_searchview_description_submit"
+                    msgid="8928215447528550784" >"Pošiljanje poizvedbe"
                 </string>
                 <string
                     name="abc_searchview_description_voice"
@@ -9491,6 +9527,16 @@ false
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
+                name="stuname1"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/src/main/res/drawable-hdpi/stuname1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="stuname2"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/src/main/res/drawable-hdpi/stuname2.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/src/main/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi-v4"
@@ -9515,6 +9561,11 @@ false
                 path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/src/main/res/menu/my.xml"
                 qualifiers=""
                 type="menu" />
+            <file
+                name="rawdata"
+                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/src/main/res/raw/rawdata.txt"
+                qualifiers=""
+                type="raw" />
             <file
                 path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/src/main/res/values/dimens.xml"
                 qualifiers="" >
@@ -9550,21 +9601,6 @@ false
                 <dimen name="activity_horizontal_margin" >64dp
                 </dimen>
             </file>
-            <file
-                name="stuname2"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/src/main/res/drawable-hdpi/stuname2.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="stuname1"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/src/main/res/drawable-hdpi/stuname1.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="rawdata"
-                path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/src/main/res/raw/rawdata.txt"
-                qualifiers=""
-                type="raw" />
         </source>
         <source path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/generated/res/rs/debug" />
         <source path="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/generated/res/generated/debug" />

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Feedback-2014.3.1023-devRelease">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -9,4 +9,4 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/legendListView" />
-</merge><!-- From: file:/C:/Program%20Files%20(x86)/Jenkins/jobs/BuildAll_master/workspace/Chart/src/main/res/layout/radlegendcontrol.xml --><!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/layout/radlegendcontrol.xml -->
+</merge><!-- From: file:/C:/Program%20Files%20(x86)/Jenkins/jobs/BuildAll_master/workspace/Chart/src/main/res/layout/radlegendcontrol.xml --><!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/layout/radlegendcontrol.xml -->

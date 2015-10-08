@@ -28,9 +28,9 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:19.+'
-    compile(name: 'Chart-2014.2.717-trialRelease', ext: 'aar')
-    compile(name: 'Common-2014.2.717-trialRelease', ext: 'aar')
-    compile(name: 'Feedback-2014.2.717-trialRelease', ext: 'aar')
-    compile(name: 'Input-2014.2.717-trialRelease', ext: 'aar')
-    compile(name: 'Primitives-2014.2.717-trialRelease', ext: 'aar')
+    compile(name: 'Chart-2014.3.1023-devRelease', ext: 'aar')
+    compile(name: 'Common-2014.3.1023-devRelease', ext: 'aar')
+    compile(name: 'Feedback-2014.3.1023-devRelease', ext: 'aar')
+    compile(name: 'Input-2014.3.1023-devRelease', ext: 'aar')
+    compile(name: 'Primitives-2014.3.1023-devRelease', ext: 'aar')
 }

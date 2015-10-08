@@ -94,7 +94,7 @@
                                     android:layout_height="fill_parent"
                                     android:layout_weight="2.0"
                                     android:gravity="center"
-                                    android:text="- 44%"
+                                    android:text="- 37%"
                                     android:textSize="20sp"
                                     android:textColor="#01DF01"/>
                                 </LinearLayout>
@@ -161,7 +161,7 @@
                                     android:layout_height="fill_parent"
                                     android:layout_weight="2.0"
                                     android:gravity="center"
-                                    android:text="- 28%"
+                                    android:text="- 29%"
                                     android:textSize="20sp"
                                     android:textColor="#01DF01"/>
                             </LinearLayout>
@@ -225,7 +225,7 @@
                                     android:layout_height="fill_parent"
                                     android:layout_weight="2.0"
                                     android:gravity="center"
-                                    android:text="- 26%"
+                                    android:text="- 18%"
                                     android:textSize="20sp"
                                     android:textColor="#01DF01"/>
                             </LinearLayout>
@@ -290,7 +290,7 @@
                                     android:layout_height="fill_parent"
                                     android:layout_weight="2.0"
                                     android:gravity="center"
-                                    android:text="- 17%"
+                                    android:text="- 14%"
                                     android:textSize="20sp"
                                     android:textColor="#01DF01"/>
                             </LinearLayout>
@@ -358,7 +358,7 @@
                                     android:layout_height="fill_parent"
                                     android:layout_weight="2.0"
                                     android:gravity="center"
-                                    android:text="- 5%"
+                                    android:text="- 11%"
                                     android:textSize="20sp"
                                     android:textColor="#01DF01"/>
                             </LinearLayout>
@@ -513,9 +513,10 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="Jas Birk"
+                android:text="Jung-Won Hwang"
                 android:textSize="16sp"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:id="@+id/j_name"/>
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -527,9 +528,10 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="Oliva Capewell"
+                android:text="Benjamin Whitby"
                 android:textSize="16sp"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:id="@+id/b_name"/>
             </LinearLayout>
 
         <LinearLayout

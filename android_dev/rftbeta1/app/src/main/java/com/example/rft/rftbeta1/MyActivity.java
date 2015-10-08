@@ -3,6 +3,7 @@ package com.example.rft.rftbeta1;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.ViewGroup;
@@ -38,12 +39,17 @@ public class MyActivity extends Activity {
     private List<DayCosump> dayCosumpList4;
     private List<DayCosump> rankCosumpList;
     private List<DayCosump> rankCosumpList2;
+    private String[] namelist = new String[24];
+    //private List<String> nameMatching;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
+
+
+
         RadCartesianChartView chartView = new RadCartesianChartView(this);
         RadCartesianChartView chartView1 = new RadCartesianChartView(this);
         RadCartesianChartView chartView2 = new RadCartesianChartView(this);
@@ -67,7 +73,29 @@ public class MyActivity extends Activity {
         chart5.addView(chartView3);
         chart6.addView(chartView4);
 
-
+        namelist[0] = "L. Stevens";
+        namelist[1] = "P. Brown";
+        namelist[2] = "J. Hauer-King";
+        namelist[3] = "F. Lombardi";
+        namelist[4] = "M. Miglio";
+        namelist[5] = "B. Whitby";
+        namelist[6] = "E. Travis";
+        namelist[7] = "J. Fulcher";
+        namelist[8] = "K. Morrish";
+        namelist[9] = "K. Bhate";
+        namelist[10] = "J. McManus";
+        namelist[11] = "T. Newton";
+        namelist[12] = "E. Clark";
+        namelist[13] = "J. Heath";
+        namelist[14] = "B. Boyd-Taylor";
+        namelist[15] = "A. Sabir";
+        namelist[16] = "J. Forge";
+        namelist[17] = "S. Tesler";
+        namelist[18] = "C. Braithwaite";
+        namelist[20] = "D. Goddard";
+        namelist[21] = "A. Roberts";
+        namelist[22] = "H. Stevens";
+        namelist[23] = "J. Hwang";
 
 
         initData();
@@ -78,19 +106,27 @@ public class MyActivity extends Activity {
         initDataVs1();
         initDataVs2();
 
+
+
+
         TextView stu_name1 = (TextView)findViewById(R.id.stu_p1_name);
-        stu_name1.setText("Jamn Nakami");
+        stu_name1.setText(namelist[21]);
         TextView stu_name2 = (TextView)findViewById(R.id.stu_p2_name);
-        stu_name2.setText("D. H. Soves");
+        stu_name2.setText(namelist[15]);
         TextView stu_name3 = (TextView)findViewById(R.id.stu_p3_name);
-        stu_name3.setText("Thomas Cowie");
+        stu_name3.setText(namelist[16]);
         TextView stu_name4 = (TextView)findViewById(R.id.stu_p4_name);
-        stu_name4.setText("Charlotte Britton");
+        stu_name4.setText(namelist[9]);
         TextView stu_name5 = (TextView)findViewById(R.id.stu_p5_name);
-        stu_name5.setText("Calnona Parry");
+        stu_name5.setText(namelist[4]);
+
+        TextView j_name = (TextView)findViewById(R.id.j_name);
+        j_name.setText(namelist[5]);
+        TextView b_name = (TextView)findViewById(R.id.b_name);
+        b_name.setText(namelist[23]);
 
 
-        BarSeries barSeries = new BarSeries(this);
+        BarSeries barSeries = new BarSeries();
 
         barSeries.setCategoryBinding(new DataPointBinding() {
             @Override
@@ -107,10 +143,10 @@ public class MyActivity extends Activity {
         });
 
         barSeries.setData(this.dayCosumpList4);
-        CategoricalAxis categoricalAxis = new CategoricalAxis(this);
+        CategoricalAxis categoricalAxis = new CategoricalAxis();
         chartView.setHorizontalAxis(categoricalAxis);
 
-        LinearAxis linearAxis =new LinearAxis(this);
+        LinearAxis linearAxis =new LinearAxis();
         chartView.setVerticalAxis(linearAxis);
         categoricalAxis.setGapLength((float) 0.1);
         linearAxis.setShowLabels(false);
@@ -124,7 +160,7 @@ public class MyActivity extends Activity {
 
 
 
-        BarSeries barSeries1 = new BarSeries(this);
+        BarSeries barSeries1 = new BarSeries();
         barSeries1.setCategoryBinding(new DataPointBinding() {
             @Override
             public Object getValue(Object o) throws IllegalArgumentException {
@@ -142,10 +178,10 @@ public class MyActivity extends Activity {
         barSeries1.setData(this.dayCosumpList1);
         chartView1.getSeries().add(barSeries1);
 
-        CategoricalAxis categoricalAxis1 = new CategoricalAxis(this);
+        CategoricalAxis categoricalAxis1 = new CategoricalAxis();
         chartView1.setHorizontalAxis(categoricalAxis1);
 
-        LinearAxis linearAxis1 =new LinearAxis(this);
+        LinearAxis linearAxis1 =new LinearAxis();
         linearAxis1.setShowLabels(false);
         chartView1.setVerticalAxis(linearAxis1);
 
@@ -154,7 +190,7 @@ public class MyActivity extends Activity {
         //lineSeries1.setShowLabels(true);
 
 
-        BarSeries barSeries3 = new BarSeries(this);
+        BarSeries barSeries3 = new BarSeries();
         barSeries3.setCategoryBinding(new DataPointBinding() {
             @Override
             public Object getValue(Object o) throws IllegalArgumentException {
@@ -172,17 +208,17 @@ public class MyActivity extends Activity {
         barSeries3.setData(this.dayCosumpList2);
         chartView2.getSeries().add(barSeries3);
 
-        CategoricalAxis categoricalAxis3 = new CategoricalAxis(this);
+        CategoricalAxis categoricalAxis3 = new CategoricalAxis();
         chartView2.setHorizontalAxis(categoricalAxis3);
 
-        LinearAxis linearAxis3 =new LinearAxis(this);
+        LinearAxis linearAxis3 =new LinearAxis();
         linearAxis3.setShowLabels(false);
         chartView2.setVerticalAxis(linearAxis3);
         categoricalAxis3.setGapLength((float) 0.1);
         barSeries3.setDataPointRenderer(new CustomBarPointRenderer(barSeries));
 
         //lineSeries3.setShowLabels(true);
-        BarSeries barSeries4 = new BarSeries(this);
+        BarSeries barSeries4 = new BarSeries();
         barSeries4.setCategoryBinding(new DataPointBinding() {
             @Override
             public Object getValue(Object o) throws IllegalArgumentException {
@@ -200,17 +236,17 @@ public class MyActivity extends Activity {
         barSeries4.setData(this.dayCosumpList3);
         chartView3.getSeries().add(barSeries4);
 
-        CategoricalAxis categoricalAxis4 = new CategoricalAxis(this);
+        CategoricalAxis categoricalAxis4 = new CategoricalAxis();
         chartView3.setHorizontalAxis(categoricalAxis4);
 
-        LinearAxis linearAxis4 =new LinearAxis(this);
+        LinearAxis linearAxis4 =new LinearAxis();
         linearAxis4.setShowLabels(false);
         chartView3.setVerticalAxis(linearAxis4);
         categoricalAxis4.setGapLength((float) 0.1);
         barSeries4.setDataPointRenderer(new CustomBarPointRenderer(barSeries));
 
 
-        BarSeries barSeries5 = new BarSeries(this);
+        BarSeries barSeries5 = new BarSeries();
         barSeries5.setCategoryBinding(new DataPointBinding() {
             @Override
             public Object getValue(Object o) throws IllegalArgumentException {
@@ -228,10 +264,10 @@ public class MyActivity extends Activity {
         barSeries5.setData(this.dayCosumpList);
         chartView4.getSeries().add(barSeries5);
 
-        CategoricalAxis categoricalAxis5 = new CategoricalAxis(this);
+        CategoricalAxis categoricalAxis5 = new CategoricalAxis();
         chartView4.setHorizontalAxis(categoricalAxis5);
 
-        LinearAxis linearAxis5 =new LinearAxis(this);
+        LinearAxis linearAxis5 =new LinearAxis();
         linearAxis5.setShowLabels(false);
         chartView4.setVerticalAxis(linearAxis5);
         categoricalAxis5.setGapLength((float) 0.1);
@@ -244,7 +280,7 @@ public class MyActivity extends Activity {
 
 
 
-        LineSeries lineSeries = new LineSeries(this);
+        LineSeries lineSeries = new LineSeries();
         lineSeries.setCategoryBinding(new DataPointBinding() {
             @Override
             public Object getValue(Object o) throws IllegalArgumentException {
@@ -262,7 +298,7 @@ public class MyActivity extends Activity {
         lineSeries.setData(this.rankCosumpList);
         barChart.getSeries().add(lineSeries);
 
-        LineSeries lineSeries1 = new LineSeries(this);
+        LineSeries lineSeries1 = new LineSeries();
         lineSeries1.setCategoryBinding(new DataPointBinding() {
             @Override
             public Object getValue(Object o) throws IllegalArgumentException {
@@ -284,31 +320,32 @@ public class MyActivity extends Activity {
         lineSeries.setCombineMode(ChartSeriesCombineMode.CLUSTER);
         lineSeries1.setCombineMode(ChartSeriesCombineMode.CLUSTER);
 
-        lineSeries.setLegendTitle("Jas Birk");
-        lineSeries1.setLegendTitle("Oliva Capewell");
+        lineSeries.setLegendTitle(namelist[5]);
+        lineSeries1.setLegendTitle(namelist[23]);
 
         legendView.setLegendProvider(barChart);
 
 
 
-        CategoricalAxis categoricalAxis2 = new CategoricalAxis(this);
+        CategoricalAxis categoricalAxis2 = new CategoricalAxis();
         categoricalAxis2.setLabelTextColor(Color.YELLOW);
 
         barChart.setHorizontalAxis(categoricalAxis2);
 
-        LinearAxis linearAxis2 =new LinearAxis(this);
+        LinearAxis linearAxis2 =new LinearAxis();
         barChart.setVerticalAxis(linearAxis2);
 
         //chart3.addView(barChart);
 
 
-        CartesianGridLineAnnotation annotation4 = new CartesianGridLineAnnotation(this, linearAxis2, 0.38);
-        annotation4.setStrokeColor(Color.RED);
-        annotation4.setStrokeWidth(4);
+        CartesianGridLineAnnotation annotation4 = new CartesianGridLineAnnotation(linearAxis2, 0.38);
+        annotation4.setStrokeColor(Color.WHITE);
+        annotation4.setStrokeWidth(2);
         barChart.getAnnotations().add(annotation4);
 
         LinearLayout linearLayout = new LinearLayout(this);
         linearLayout.setOrientation(LinearLayout.VERTICAL);
+        linearLayout.setGravity(Gravity.CENTER_HORIZONTAL);
         linearLayout.addView(legendView);
         linearLayout.addView(barChart);
         //linearLayout.setGravity();
@@ -350,80 +387,81 @@ public class MyActivity extends Activity {
 
 
     private void initData() {
-        InputStream inputStream = getResources().openRawResource(R.raw.rawdata);
-        String raw_data = new Scanner(inputStream,"UTF-8").useDelimiter("\\A").next();
-        String[] data_array = raw_data.split("\n");
+        //InputStream inputStream = getResources().openRawResource(R.raw.rawdata);
+
+        //String raw_data = new Scanner(inputStream,"UTF-8").useDelimiter("\\A").next();
+        //String[] data_array = raw_data.split("\n");
 
 
         dayCosumpList = new ArrayList<DayCosump>();
-        dayCosumpList.add(new DayCosump("M",Double.parseDouble(data_array[8])));
-        dayCosumpList.add(new DayCosump("Tu",Double.parseDouble(data_array[9])));
-        dayCosumpList.add(new DayCosump("W",Double.parseDouble(data_array[10])));
-        dayCosumpList.add(new DayCosump("Th",Double.parseDouble(data_array[11])));
-        dayCosumpList.add(new DayCosump("F",Double.parseDouble(data_array[12])));
-        dayCosumpList.add(new DayCosump("Sa",Double.parseDouble(data_array[13])));
-        dayCosumpList.add(new DayCosump("Su",Double.parseDouble(data_array[14])));
+        dayCosumpList.add(new DayCosump("M",1.4));
+        dayCosumpList.add(new DayCosump("Tu",0.3));
+        dayCosumpList.add(new DayCosump("W",2.0));
+        dayCosumpList.add(new DayCosump("Th",1.6));
+        dayCosumpList.add(new DayCosump("F",1.0));
+        dayCosumpList.add(new DayCosump("Sa",1.5));
+        dayCosumpList.add(new DayCosump("Su",1.1));
     }
 
     private void initData1() {
-        InputStream inputStream = getResources().openRawResource(R.raw.rawdata);
-        String raw_data = new Scanner(inputStream,"UTF-8").useDelimiter("\\A").next();
-        String[] data_array = raw_data.split("\n");
+        //InputStream inputStream = getResources().openRawResource(R.raw.rawdata);
+        //String raw_data = new Scanner(inputStream,"UTF-8").useDelimiter("\\A").next();
+        //String[] data_array = raw_data.split("\n");
 
 
         dayCosumpList1 = new ArrayList<DayCosump>();
-        dayCosumpList1.add(new DayCosump("M",Double.parseDouble(data_array[15])));
-        dayCosumpList1.add(new DayCosump("Tu",Double.parseDouble(data_array[16])));
-        dayCosumpList1.add(new DayCosump("W",Double.parseDouble(data_array[17])));
-        dayCosumpList1.add(new DayCosump("Th",Double.parseDouble(data_array[18])));
-        dayCosumpList1.add(new DayCosump("F",Double.parseDouble(data_array[19])));
-        dayCosumpList1.add(new DayCosump("Sa",Double.parseDouble(data_array[20])));
-        dayCosumpList1.add(new DayCosump("Su",Double.parseDouble(data_array[21])));
+        dayCosumpList1.add(new DayCosump("M",0.3));
+        dayCosumpList1.add(new DayCosump("Tu",0.6));
+        dayCosumpList1.add(new DayCosump("W",0.5));
+        dayCosumpList1.add(new DayCosump("Th",0.7));
+        dayCosumpList1.add(new DayCosump("F",0.6));
+        dayCosumpList1.add(new DayCosump("Sa",1.4));
+        dayCosumpList1.add(new DayCosump("Su",1.1));
     }
 
     private void initData2() {
-        InputStream inputStream = getResources().openRawResource(R.raw.rawdata);
-        String raw_data = new Scanner(inputStream,"UTF-8").useDelimiter("\\A").next();
-        String[] data_array = raw_data.split("\n");
+        //InputStream inputStream = getResources().openRawResource(R.raw.rawdata);
+        //String raw_data = new Scanner(inputStream,"UTF-8").useDelimiter("\\A").next();
+        //String[] data_array = raw_data.split("\n");
 
 
         dayCosumpList2 = new ArrayList<DayCosump>();
-        dayCosumpList2.add(new DayCosump("M",Double.parseDouble(data_array[22])));
-        dayCosumpList2.add(new DayCosump("Tu",Double.parseDouble(data_array[23])));
-        dayCosumpList2.add(new DayCosump("W",Double.parseDouble(data_array[24])));
-        dayCosumpList2.add(new DayCosump("Th",Double.parseDouble(data_array[25])));
-        dayCosumpList2.add(new DayCosump("F",Double.parseDouble(data_array[26])));
-        dayCosumpList2.add(new DayCosump("Sa",Double.parseDouble(data_array[27])));
-        dayCosumpList2.add(new DayCosump("Su",Double.parseDouble(data_array[28])));
+        dayCosumpList2.add(new DayCosump("M",0.3));
+        dayCosumpList2.add(new DayCosump("Tu",1.2));
+        dayCosumpList2.add(new DayCosump("W",1.4));
+        dayCosumpList2.add(new DayCosump("Th",0.8));
+        dayCosumpList2.add(new DayCosump("F",1.6));
+        dayCosumpList2.add(new DayCosump("Sa",2));
+        dayCosumpList2.add(new DayCosump("Su",0.9));
     }
 
     private void initData3() {
-        InputStream inputStream = getResources().openRawResource(R.raw.rawdata);
-        String raw_data = new Scanner(inputStream,"UTF-8").useDelimiter("\\A").next();
-        String[] data_array = raw_data.split("\n");
+        //InputStream inputStream = getResources().openRawResource(R.raw.rawdata);
+        //String raw_data = new Scanner(inputStream,"UTF-8").useDelimiter("\\A").next();
+        //String[] data_array = raw_data.split("\n");
 
 
         dayCosumpList3 = new ArrayList<DayCosump>();
-        dayCosumpList3.add(new DayCosump("M",Double.parseDouble(data_array[16])));
-        dayCosumpList3.add(new DayCosump("Tu",Double.parseDouble(data_array[23])));
-        dayCosumpList3.add(new DayCosump("W",Double.parseDouble(data_array[21])));
-        dayCosumpList3.add(new DayCosump("Th",Double.parseDouble(data_array[28])));
-        dayCosumpList3.add(new DayCosump("F",Double.parseDouble(data_array[19])));
-        dayCosumpList3.add(new DayCosump("Sa",Double.parseDouble(data_array[22])));
-        dayCosumpList3.add(new DayCosump("Su",Double.parseDouble(data_array[28])));
+        dayCosumpList3.add(new DayCosump("M",1.0));
+        dayCosumpList3.add(new DayCosump("Tu",0.4));
+        dayCosumpList3.add(new DayCosump("W",0.6));
+        dayCosumpList3.add(new DayCosump("Th",1.5));
+        dayCosumpList3.add(new DayCosump("F",0.3));
+        dayCosumpList3.add(new DayCosump("Sa",0.2));
+        dayCosumpList3.add(new DayCosump("Su",1.1));
     }
 
     private void initData4() {
-        InputStream inputStream = getResources().openRawResource(R.raw.rawdata);
-        String raw_data = new Scanner(inputStream,"UTF-8").useDelimiter("\\A").next();
-        String[] data_array = raw_data.split("\n");
+        //InputStream inputStream = getResources().openRawResource(R.raw.rawdata);
+        //String raw_data = new Scanner(inputStream,"UTF-8").useDelimiter("\\A").next();
+        //String[] data_array = raw_data.split("\n");
 
 
         dayCosumpList4 = new ArrayList<DayCosump>();
-        dayCosumpList4.add(new DayCosump("M",Double.parseDouble(data_array[17])));
-        dayCosumpList4.add(new DayCosump("Tu",Double.parseDouble(data_array[25])));
-        dayCosumpList4.add(new DayCosump("W",Double.parseDouble(data_array[22])));
-        dayCosumpList4.add(new DayCosump("Th",Double.parseDouble(data_array[10])));
+        dayCosumpList4.add(new DayCosump("M",1.1));
+        dayCosumpList4.add(new DayCosump("Tu",0.2));
+        dayCosumpList4.add(new DayCosump("W",1.4));
+        dayCosumpList4.add(new DayCosump("Th",0.8));
         dayCosumpList4.add(new DayCosump("F",0.5));
         dayCosumpList4.add(new DayCosump("Sa",1.0));
         dayCosumpList4.add(new DayCosump("Su",2.0));
@@ -432,56 +470,56 @@ public class MyActivity extends Activity {
 
     private void initDataVs1() {
 
-        InputStream inputStream = getResources().openRawResource(R.raw.rawdata);
-        String raw_data = new Scanner(inputStream,"UTF-8").useDelimiter("\\A").next();
-        String[] data_array = raw_data.split("\n");
-        Random random_double = new Random();
+        //InputStream inputStream = getResources().openRawResource(R.raw.rawdata);
+        //String raw_data = new Scanner(inputStream,"UTF-8").useDelimiter("\\A").next();
+        //String[] data_array = raw_data.split("\n");
+        //Random random_double = new Random();
 
         rankCosumpList = new ArrayList<DayCosump>();
-        rankCosumpList.add(new DayCosump("Mon.0",0.23));
-        rankCosumpList.add(new DayCosump("Mon.1",0.34));
+        rankCosumpList.add(new DayCosump("Mon.0",0.13));
+        rankCosumpList.add(new DayCosump("Mon.1",0.24));
         //rankCosumpList.add(new DayCosump("Mon.2",random_double.nextDouble()));
         //rankCosumpList.add(new DayCosump("Mon.3",random_double.nextDouble()));
         //rankCosumpList.add(new DayCosump("Mon.4",random_double.nextDouble()));
         //rankCosumpList.add(new DayCosump("Mon.5",random_double.nextDouble()));
 
-        rankCosumpList.add(new DayCosump("Tue.0",0.1));
+        rankCosumpList.add(new DayCosump("Tue.0",0.19));
         rankCosumpList.add(new DayCosump("Tue.1",0.2));
         //rankCosumpList.add(new DayCosump("Tue.2",random_double.nextDouble()));
         //rankCosumpList.add(new DayCosump("Tue.3",random_double.nextDouble()));
         //rankCosumpList.add(new DayCosump("Tue.4",random_double.nextDouble()));
         //rankCosumpList.add(new DayCosump("Tue.5",random_double.nextDouble()));
 
-        rankCosumpList.add(new DayCosump("Wed.0",0.17));
-        rankCosumpList.add(new DayCosump("Wed.1",0.23));
+        rankCosumpList.add(new DayCosump("Wed.0",0.27));
+        rankCosumpList.add(new DayCosump("Wed.1",0.13));
         //rankCosumpList.add(new DayCosump("Wed.2",random_double.nextDouble()));
         //rankCosumpList.add(new DayCosump("Wed.3",random_double.nextDouble()));
         //rankCosumpList.add(new DayCosump("Wed.4",random_double.nextDouble()));
         //rankCosumpList.add(new DayCosump("Wed.5",random_double.nextDouble()));
 
         rankCosumpList.add(new DayCosump("Thu.0",0.36));
-        rankCosumpList.add(new DayCosump("Thu.1",0.13));
+        rankCosumpList.add(new DayCosump("Thu.1",0.33));
         //rankCosumpList.add(new DayCosump("Thu.2",random_double.nextDouble()));
         //rankCosumpList.add(new DayCosump("Thu.3",random_double.nextDouble()));
         //rankCosumpList.add(new DayCosump("Thu.4",random_double.nextDouble()));
         //rankCosumpList.add(new DayCosump("Thu.5",random_double.nextDouble()));
 
         rankCosumpList.add(new DayCosump("Fri.0",0.13));
-        rankCosumpList.add(new DayCosump("Fri.1",0.23));
+        rankCosumpList.add(new DayCosump("Fri.1",0.15));
         //rankCosumpList.add(new DayCosump("Fri.2",random_double.nextDouble()));
         //rankCosumpList.add(new DayCosump("Fri.3",random_double.nextDouble()));
         //rankCosumpList.add(new DayCosump("Fri.4",random_double.nextDouble()));
         //rankCosumpList.add(new DayCosump("Fri.5",random_double.nextDouble()));
 
-        rankCosumpList.add(new DayCosump("Sat.0",0.67));
-        rankCosumpList.add(new DayCosump("Sat.1",0.25));
+        rankCosumpList.add(new DayCosump("Sat.0",0.57));
+        rankCosumpList.add(new DayCosump("Sat.1",0.45));
         //rankCosumpList.add(new DayCosump("Sat.2",random_double.nextDouble()));
         //rankCosumpList.add(new DayCosump("Sat.3",random_double.nextDouble()));
         //rankCosumpList.add(new DayCosump("Sat.4",random_double.nextDouble()));
         //rankCosumpList.add(new DayCosump("Sat.5",random_double.nextDouble()));
 
-        rankCosumpList.add(new DayCosump("Sun.0",0.12));
-        rankCosumpList.add(new DayCosump("Sun.1",0.2));
+        rankCosumpList.add(new DayCosump("Sun.0",0.52));
+        rankCosumpList.add(new DayCosump("Sun.1",0.42));
         //rankCosumpList.add(new DayCosump("Sun.2",random_double.nextDouble()));
         //rankCosumpList.add(new DayCosump("Sun.3",random_double.nextDouble()));
         //rankCosumpList.add(new DayCosump("Sun.4",random_double.nextDouble()));
@@ -492,10 +530,10 @@ public class MyActivity extends Activity {
 
     private void initDataVs2() {
 
-        InputStream inputStream = getResources().openRawResource(R.raw.rawdata);
-        String raw_data = new Scanner(inputStream,"UTF-8").useDelimiter("\\A").next();
-        String[] data_array = raw_data.split("\n");
-        Random random_double = new Random();
+        //InputStream inputStream = getResources().openRawResource(R.raw.rawdata);
+        //String raw_data = new Scanner(inputStream,"UTF-8").useDelimiter("\\A").next();
+        //String[] data_array = raw_data.split("\n");
+        //Random random_double = new Random();
 
         rankCosumpList2 = new ArrayList<DayCosump>();
         rankCosumpList2.add(new DayCosump("Mon.0",0.5));
@@ -505,21 +543,21 @@ public class MyActivity extends Activity {
         //rankCosumpList2.add(new DayCosump("Mon.4",random_double.nextDouble()));
         //rankCosumpList2.add(new DayCosump("Mon.5",random_double.nextDouble()));
 
-        rankCosumpList2.add(new DayCosump("Tue.0",0.47));
-        rankCosumpList2.add(new DayCosump("Tue.1",0.39));
+        rankCosumpList2.add(new DayCosump("Tue.0",0.44));
+        rankCosumpList2.add(new DayCosump("Tue.1",0.43));
         //rankCosumpList2.add(new DayCosump("Tue.2",random_double.nextDouble()));
         //rankCosumpList2.add(new DayCosump("Tue.3",random_double.nextDouble()));
         //rankCosumpList2.add(new DayCosump("Tue.4",random_double.nextDouble()));
         //rankCosumpList2.add(new DayCosump("Tue.5",random_double.nextDouble()));
 
-        rankCosumpList2.add(new DayCosump("Wed.0",0.54));
-        rankCosumpList2.add(new DayCosump("Wed.1",0.58));
+        rankCosumpList2.add(new DayCosump("Wed.0",0.58));
+        rankCosumpList2.add(new DayCosump("Wed.1",0.52));
         //rankCosumpList2.add(new DayCosump("Wed.2",random_double.nextDouble()));
         //rankCosumpList2.add(new DayCosump("Wed.3",random_double.nextDouble()));
         //rankCosumpList2.add(new DayCosump("Wed.4",random_double.nextDouble()));
         //rankCosumpList2.add(new DayCosump("Wed.5",random_double.nextDouble()));
 
-        rankCosumpList2.add(new DayCosump("Thu.0",0.45));
+        rankCosumpList2.add(new DayCosump("Thu.0",0.52));
         rankCosumpList2.add(new DayCosump("Thu.1",0.56));
         //rankCosumpList2.add(new DayCosump("Thu.2",random_double.nextDouble()));
         //rankCosumpList2.add(new DayCosump("Thu.3",random_double.nextDouble()));
@@ -527,21 +565,21 @@ public class MyActivity extends Activity {
         //rankCosumpList2.add(new DayCosump("Thu.5",random_double.nextDouble()));
 
         rankCosumpList2.add(new DayCosump("Fri.0",0.44));
-        rankCosumpList2.add(new DayCosump("Fri.1",0.34));
+        rankCosumpList2.add(new DayCosump("Fri.1",0.49));
         //rankCosumpList2.add(new DayCosump("Fri.2",random_double.nextDouble()));
         //rankCosumpList2.add(new DayCosump("Fri.3",random_double.nextDouble()));
         //rankCosumpList2.add(new DayCosump("Fri.4",random_double.nextDouble()));
         //rankCosumpList2.add(new DayCosump("Fri.5",random_double.nextDouble()));
 
-        rankCosumpList2.add(new DayCosump("Sat.0",0.34));
-        rankCosumpList2.add(new DayCosump("Sat.1",0.47));
+        rankCosumpList2.add(new DayCosump("Sat.0",0.37));
+        rankCosumpList2.add(new DayCosump("Sat.1",0.42));
         //rankCosumpList2.add(new DayCosump("Sat.2",random_double.nextDouble()));
         //rankCosumpList2.add(new DayCosump("Sat.3",random_double.nextDouble()));
         //rankCosumpList2.add(new DayCosump("Sat.4",random_double.nextDouble()));
         //rankCosumpList2.add(new DayCosump("Sat.5",random_double.nextDouble()));
 
-        rankCosumpList2.add(new DayCosump("Sun.0",0.56));
-        rankCosumpList2.add(new DayCosump("Sun.1",0.46));
+        rankCosumpList2.add(new DayCosump("Sun.0",0.53));
+        rankCosumpList2.add(new DayCosump("Sun.1",0.48));
         //rankCosumpList2.add(new DayCosump("Sun.2",random_double.nextDouble()));
         //rankCosumpList2.add(new DayCosump("Sun.3",random_double.nextDouble()));
         //rankCosumpList2.add(new DayCosump("Sun.4",random_double.nextDouble()));

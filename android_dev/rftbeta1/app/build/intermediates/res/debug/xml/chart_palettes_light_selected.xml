@@ -57,10 +57,42 @@
             StrokeWidth="2"
             Stroke="#8D3200"/>
     </PaletteEntryCollection>
+    <PaletteEntryCollection Family="Point">
+        <PaletteEntry Fill="#4FB6E7"
+            StrokeWidth="2"
+            Stroke="#000000"/>
+        <PaletteEntry Fill="#A666CE"
+            StrokeWidth="2"
+            Stroke="#000000"/>
+        <PaletteEntry Fill="#9DCC00"
+            StrokeWidth="2"
+            Stroke="#000000"/>
+        <PaletteEntry Fill="#F9BA1A"
+            StrokeWidth="2"
+            Stroke="#000000"/>
+        <PaletteEntry Fill="#F5413F"
+            StrokeWidth="2"
+            Stroke="#000000"/>
+        <PaletteEntry Fill="#5977F4"
+            StrokeWidth="2"
+            Stroke="#000000"/>
+        <PaletteEntry Fill="#42B571"
+            StrokeWidth="2"
+            Stroke="#2E8A52"/>
+        <PaletteEntry Fill="#B6632F"
+            StrokeWidth="2"
+            Stroke="#000000"/>
+    </PaletteEntryCollection>
     <PaletteEntryCollection Family="Area">
-        <PaletteEntry Fill="#111111"
+        <PaletteEntry Fill="#B2111111"
             StrokeWidth="2"
             Stroke="#ffffff"/>
+    </PaletteEntryCollection>
+    <PaletteEntryCollection Family="DeferredZoomPresenter">
+        <PaletteEntry
+            Fill="#33222222"
+            Stroke="#222222"
+            StrokeWidth="1"/>
     </PaletteEntryCollection>
     <PaletteEntryCollection Family="Ohlc">
         <PaletteEntry Fill="#111111"
@@ -68,4 +100,4 @@
             Stroke="#111111"/>
     </PaletteEntryCollection>
 </ChartPalette>
-<!-- From: file:/C:/Program%20Files%20(x86)/Jenkins/jobs/BuildAll_master/workspace/Chart/src/main/res/xml/chart_palettes_light_selected.xml --><!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/xml/chart_palettes_light_selected.xml -->
+<!-- From: file:/C:/Program%20Files%20(x86)/Jenkins/jobs/BuildAll_master/workspace/Chart/src/main/res/xml/chart_palettes_light_selected.xml --><!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/xml/chart_palettes_light_selected.xml -->

@@ -31,7 +31,7 @@
     <attr name="actionModeWebSearchDrawable" format="reference" />
     <attr name="actionOverflowButtonStyle" format="reference" />
     <attr name="activityChooserViewStyle" format="reference" />
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <attr name="applyDefaultPalette" format="boolean" />
@@ -41,7 +41,7 @@
 
     <attr name="buttonBarButtonStyle" format="reference" />
     <attr name="buttonBarStyle" format="reference" />
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <attr name="clipToPlotArea" format="boolean" />
@@ -51,7 +51,7 @@
     <attr name="dividerHorizontal" format="reference" />
     <attr name="dividerVertical" format="reference" />
     <attr name="dropDownListViewStyle" format="reference" />
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <attr name="fillColor" format="color" />
@@ -62,7 +62,7 @@
     <attr name="height" format="dimension" />
     <attr name="homeAsUpIndicator" format="reference" />
     <attr name="isLightTheme" format="boolean" />
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <attr name="labelColor" format="color" />
@@ -81,7 +81,7 @@
     <attr name="listPreferredItemHeightSmall" format="dimension" />
     <attr name="listPreferredItemPaddingLeft" format="dimension" />
     <attr name="listPreferredItemPaddingRight" format="dimension" />
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <attr name="plotMode">
@@ -105,7 +105,7 @@
     <attr name="searchViewTextFieldRight" format="reference" />
     <attr name="searchViewVoiceIcon" format="reference" />
     <attr name="selectableItemBackground" format="reference" />
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <attr name="showLabels" format="boolean" />
@@ -114,7 +114,7 @@
 
     <attr name="spinnerDropDownItemStyle" format="reference" />
     <attr name="spinnerStyle" format="reference" />
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <attr name="strokeColor" format="color" />
@@ -141,28 +141,28 @@
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Common-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Common-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <color name="black">#FF000000</color>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <color name="dark_grey_text_color">#FF838383</color>
     <color name="grey_text_color">#C4C4C4</color>
     <color name="light_blue">#33B5E5</color>
     <color name="light_grey">#FFE5E5E5</color>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <color name="red">#FFFF0000</color>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <color name="status_open_color">#FF8ABD00</color>
     <color name="status_resolved_color">#FFFF9105</color>
     <color name="text_editor_background">#D9FFFFFF</color>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Common-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Common-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <color name="white">#FFFFFFFF</color>
@@ -294,7 +294,7 @@
         -->
         <attr name="expandActivityOverflowButtonDrawable" format="reference" />
     </declare-styleable>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="AreaSeries">
@@ -333,7 +333,7 @@
         <attr name="areBarsRounded" />
         <attr name="roundBarsRadius" />
     </declare-styleable>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="CalendarCellState">
@@ -342,7 +342,7 @@
     <declare-styleable name="CalendarTheme">
         <attr name="calendarStyle" format="reference" />
     </declare-styleable>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="CartesianAxis">
@@ -435,7 +435,7 @@
         <!-- Present the text in ALL CAPS. This may use a small-caps form when available. -->
         <attr name="textAllCaps" format="reference|boolean" />
     </declare-styleable>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="DateTimeCategoricalAxis">
@@ -659,7 +659,7 @@
         <!-- Whether space should be reserved in layout when an icon is missing. -->
         <attr name="android:preserveIconSpacing" />
     </declare-styleable>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Primitives-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Primitives-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="PointerLayout">
@@ -667,7 +667,7 @@
         <attr name="pointerMargin" format="dimension" />
         <attr name="pointerFill" format="color" />
     </declare-styleable>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="RadCalendarView">
@@ -693,7 +693,7 @@
         </attr>
         <attr name="isYearModeCompact" format="boolean" />
     </declare-styleable>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="RadChartViewBase">
@@ -704,6 +704,22 @@
         <attr name="emptyContent" format="string" />
         <attr name="palette" format="string" />
     </declare-styleable>
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Primitives-2014.3.1023-devRelease/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="RadScrollView">
+        <attr name="fillViewport" format="boolean" />
+        <attr name="scrollMode">
+            <flag name="vertical" value="1" />
+            <flag name="horizontal" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="RadScrollViewTheme">
+        <attr name="radScrollViewStyle" format="reference" />
+    </declare-styleable>
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/values/values.xml -->
+    <eat-comment />
+
     <declare-styleable name="RangeBarSeries">
         <attr name="strokeWidth" />
         <attr name="strokeColor" />
@@ -845,27 +861,22 @@
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
     <item name="dialog_fixed_width_major" type="dimen">320dp</item>
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <dimen name="feedback_indicator_size">32dp</dimen>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/values/values.xml -->
-    <eat-comment />
-
-    <dimen name="five_dp">5dp</dimen>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Primitives-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Primitives-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <dimen name="legend_stroke_width">1dp</dimen>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <dimen name="pager_tab_strip_padding">16dp</dimen>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <dimen name="trackball_indicator_radius">5dp</dimen>
-    <dimen name="two_dp">2dp</dimen>
     <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
@@ -891,7 +902,7 @@
     <string name="abc_searchview_description_voice">Voice search</string>
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <string name="action_edit_settings">Settings</string>
@@ -900,7 +911,7 @@
     <eat-comment />
 
     <string name="action_settings">Settings</string>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <string name="action_view_feedback">Your feedback</string>
@@ -909,7 +920,7 @@
     <eat-comment />
 
     <string name="app_name">rftbeta1</string>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <string name="author_name_tip">Your name will appear on the feedback and comments you are sending.</string>
@@ -920,7 +931,7 @@
     <eat-comment />
 
     <string name="hello_world">Hello world!</string>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <string name="label_comments_cap">COMMENTS</string>
@@ -932,16 +943,16 @@
     <string name="title_activity_send_feedback">Send feedback</string>
     <string name="title_activity_view_feedback">Your feedback</string>
     <string name="title_activity_view_item_feedback">Edit feedback</string>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Common-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Common-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <string name="trial_message">To get access to the latest updates across Android suite and Telerik\'s dedicated support please purchase a commercial license now.</string>
     <string name="trial_message_caption">Telerik UI for Android Trial</string>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <string name="view_feedback_desc">"See what's happening with the feedback you've already sent us."</string>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <style name="AppBaseTheme" parent="android:Theme.Light">
@@ -951,7 +962,7 @@
             backward-compatibility can go here.
         -->
     </style>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <style name="AppCompatTheme" parent="Theme.AppCompat.Light" />
@@ -961,7 +972,7 @@
     <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <!-- Customize your theme here. -->
     </style>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <style name="AxisStyle">
@@ -993,7 +1004,7 @@
     </style>
 
     <style name="AxisStyle.LineAxisStyle.CartesianAxisStyle.DateTimeContinuousAxisStyle" />
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <style name="CalendarDefaultStyle">
@@ -1007,7 +1018,7 @@
         <item name="weekNumberDisplayMode">None</item>
         <item name="isYearModeCompact">false</item>
     </style>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <style name="ChartAnnotationStyle">
@@ -1073,6 +1084,17 @@
     </style>
 
     <style name="RadChartBaseStyle" />
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Primitives-2014.3.1023-devRelease/res/values/values.xml -->
+    <eat-comment />
+
+    <style name="RadScrollViewStyle">
+        <item name="fillViewport">false</item>
+        <item name="scrollMode">vertical</item>
+    </style>
+
+    <style name="RadScrollViewTheme">
+        <item name="radScrollViewStyle">@style/RadScrollViewStyle</item>
+    </style>
     <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
@@ -1495,13 +1517,13 @@
     <style name="Theme.Base.AppCompat.Light.DialogWhenLarge" parent="Theme.Base.AppCompat.Light" />
 
     <style name="Theme.Base.Light" parent="android:Theme.Light" />
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <style name="Theme.CalendarTheme" parent="android:Theme.Light">
         <item name="calendarStyle">@style/CalendarDefaultStyle</item>
     </style>
-    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/values/values.xml -->
+    <!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/values/values.xml -->
     <eat-comment />
 
     <style name="Theme.ChartTheme" parent="android:Theme.Light">

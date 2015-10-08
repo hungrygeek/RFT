@@ -6,4 +6,4 @@
     android:orientation="vertical">
 
     <include layout="@layout/activity_edit_details" />
-</LinearLayout><!-- From: file:/C:/Program%20Files%20(x86)/Jenkins/jobs/BuildAll_master/workspace/Feedback/src/main/res/layout/popup_edit_details.xml --><!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/res/layout/popup_edit_details.xml -->
+</LinearLayout><!-- From: file:/C:/Program%20Files%20(x86)/Jenkins/jobs/BuildAll_master/workspace/Feedback/src/main/res/layout/popup_edit_details.xml --><!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/res/layout/popup_edit_details.xml -->

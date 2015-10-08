@@ -2,11 +2,11 @@
 <pre-dex-items>
 
     <item
-        dex="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/pre-dexed/debug/classes-4af29966a084d294743c44439cb237936d4331c8.jar"
-        jar="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.2.717-trialRelease/classes.jar"
+        dex="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/pre-dexed/debug/classes-e166d27a134a3534366f3237b24022033c192b27.jar"
+        jar="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Feedback-2014.3.1023-devRelease/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="93a1913f725fdb75db923b0c6d79ae6465683c9c"/>
+        sha1="22f50ae0285d6237d4128892381286c31a4a60f9"/>
     <item
         dex="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar"
         jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
@@ -20,28 +20,28 @@
         revision="20.0.0"
         sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
     <item
-        dex="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/pre-dexed/debug/classes-921b73a055eed86c17452dfd7856964c3e0619b1.jar"
-        jar="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Common-2014.2.717-trialRelease/classes.jar"
+        dex="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/pre-dexed/debug/classes-2355e0f0c56efd38b28f9c9745a75136cdd8401a.jar"
+        jar="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Common-2014.3.1023-devRelease/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="6feaefadf5ea27a6a300e33f25c6f52ea69d6a38"/>
+        sha1="834abd801e7de0760bdb68d2355b1ceacd871bd8"/>
     <item
-        dex="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/pre-dexed/debug/classes-5715b40ac314216d25811e71c8be7c8880dc8284.jar"
-        jar="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/classes.jar"
+        dex="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/pre-dexed/debug/classes-c9d8d3b7bc2bb2968d879fd9c5292d3a3e2e55c9.jar"
+        jar="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Primitives-2014.3.1023-devRelease/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="0ec1baa46e42c1358a9342475c26add1f0dfc149"/>
+        sha1="9f1ff6c2489f249be3b4c981aa0111f876c4edff"/>
     <item
-        dex="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/pre-dexed/debug/classes-2b12ff631fddd5e652070343b6a77a82e58fadf1.jar"
-        jar="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Primitives-2014.2.717-trialRelease/classes.jar"
+        dex="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/pre-dexed/debug/classes-e98f2cde49289a1566e487e723f1fb0c5315d6ba.jar"
+        jar="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.3.1023-devRelease/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="6591100ca6dd83725328164dcc9d9a5a3c793192"/>
+        sha1="9d111591380dfea24bc1a9cbb7109f9063ba203c"/>
     <item
-        dex="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/pre-dexed/debug/classes-d73d9afbafd5774ab3412f38c169629f669a307c.jar"
-        jar="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Input-2014.2.717-trialRelease/classes.jar"
+        dex="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/pre-dexed/debug/classes-5252b32d15261e11876f4d0a47d1e743170dff47.jar"
+        jar="/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="ca50203d16f0383905ca3d3f8e58a98d7f0a6cbe"/>
+        sha1="48fa9954d6a01a1dc0e3bb6729ffa02acc0197e7"/>
 
 </pre-dex-items>

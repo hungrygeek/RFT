@@ -32,8 +32,21 @@
 
     <PaletteEntryCollection Family="CartesianPlotBandAnnotation">
         <PaletteEntry
+            LabelLocation="INSIDE"
+            LabelHorizontalAlignment="LEFT"
+            LabelVerticalAlignment="TOP"
+            LabelHorizontalOffset="2"
             Fill="#54777777"
-            Stroke="#00ffffff"
+            Stroke="#33B5E5"
+            StrokeWidth="2" />
+    </PaletteEntryCollection>
+
+    <PaletteEntryCollection Family="CartesianGridLineAnnotation">
+        <PaletteEntry
+            LabelLocation="TOP"
+            LabelHorizontalAlignment="RIGHT"
+            LabelHorizontalOffset="-4"
+            Stroke="#33B5E5"
             StrokeWidth="2" />
     </PaletteEntryCollection>
 
@@ -190,6 +203,32 @@
             Stroke="#B6632F"
             StrokeWidth="2"/>
     </PaletteEntryCollection>
+    <PaletteEntryCollection Family="Point">
+        <PaletteEntry Fill="#4FB6E7"
+            Stroke="#FFFFFF"
+            StrokeWidth="2"/>
+        <PaletteEntry Fill="#A666CE"
+            Stroke="#FFFFFF"
+            StrokeWidth="2"/>
+        <PaletteEntry Fill="#9DCC00"
+            Stroke="#FFFFFF"
+            StrokeWidth="2"/>
+        <PaletteEntry Fill="#F9BA1A"
+            Stroke="#FFFFFF"
+            StrokeWidth="2"/>
+        <PaletteEntry Fill="#F5413F"
+            Stroke="#FFFFFF"
+            StrokeWidth="2"/>
+        <PaletteEntry Fill="#5977F4"
+            Stroke="#FFFFFF"
+            StrokeWidth="2"/>
+        <PaletteEntry Fill="#42B571"
+            Stroke="#FFFFFF"
+            StrokeWidth="2"/>
+        <PaletteEntry Fill="#B6632F"
+            Stroke="#FFFFFF"
+            StrokeWidth="2"/>
+    </PaletteEntryCollection>
     <PaletteEntryCollection Family="Area">
         <PaletteEntry
             Fill="#B24FB6E7"
@@ -215,6 +254,12 @@
         <PaletteEntry
             Fill="#B2B6632F"
             Stroke="#FFFFFF" />
+    </PaletteEntryCollection>
+    <PaletteEntryCollection Family="DeferredZoomPresenter">
+        <PaletteEntry
+            Fill="#33222222"
+            Stroke="#222222"
+            StrokeWidth="1"/>
     </PaletteEntryCollection>
     <PaletteEntryCollection Family="Ohlc">
         <PaletteEntry
@@ -289,6 +334,5 @@
             Stroke="#B6632F"
             StrokeWidth="1" />
     </PaletteEntryCollection>
-
 </ChartPalette>
-<!-- From: file:/C:/Program%20Files%20(x86)/Jenkins/jobs/BuildAll_master/workspace/Chart/src/main/res/xml/chart_palettes_default_light.xml --><!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.2.717-trialRelease/res/xml/chart_palettes_default_light.xml -->
+<!-- From: file:/C:/Program%20Files%20(x86)/Jenkins/jobs/BuildAll_master/workspace/Chart/src/main/res/xml/chart_palettes_default_light.xml --><!-- From: file:/Users/shishu/Sourcecode/RFT/android_dev/rftbeta1/app/build/intermediates/exploded-aar/Chart-2014.3.1023-devRelease/res/xml/chart_palettes_default_light.xml -->
